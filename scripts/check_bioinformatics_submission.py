@@ -49,7 +49,9 @@ def main():
     assert 'Shiyue Mei' in text and 'lijingyue513@163.com' in text
     assert 'The authors declare no conflict of interest.' in text
     assert r'\section*{Acknowledgements}' not in text and r'\subsection*{Funding}' not in text
-    assert 'manuscript drafting and revision' in text
+    assert text.count('OpenAI Codex assisted with code and analyses.')==1
+    assert supp.count('OpenAI Codex assisted with code and analyses.')==1
+    assert 'OpenAI Codex assisted with code and analyses.' in (ROOT/'submission/cover_letter.txt').read_text()
     assert r'\subsection*{AI assistance}' not in text
     assert r'\path{' not in supp and 'Regeneration}' not in supp
     assert 'AI assistance and remaining author declarations' not in supp

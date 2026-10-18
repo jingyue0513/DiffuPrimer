@@ -14,7 +14,7 @@ def main():
     data_note='Supplementary data provide machine-readable cohort summaries, mechanism-control results and figure data.'
     if data_note not in text:
         text=text.replace(r'\section*{Conflict of interest}',data_note+'\n\n'+r'\section*{Conflict of interest}')
-    disclosure='OpenAI Codex assisted with implementation, analyses, figures and manuscript drafting and revision.'
+    disclosure='OpenAI Codex assisted with code and analyses.'
     a=text.index(r'\section*{Acknowledgements}') if r'\section*{Acknowledgements}' in text else text.index(r'\section*{Conflict of interest}');b=text.index(r'{\small\setlength{\bibsep}',a)
     text=text[:a]+r'''\section*{Conflict of interest}
 The authors declare no conflict of interest.
@@ -61,7 +61,7 @@ Each eligible gene contributes four conditional windows per epoch. A labelled pa
 
 Training uses AdamW for 30 epochs, learning rate $10^{-3}$, weight decay 0.01 and batch size 16. Diffusion uses 16 absorbing-mask levels. At level $t$, each non-anchored valid label is independently masked with probability $t/16$. Cross-entropy on masked sites is normalized by the valid sequence length and weighted by $16/t$. Direct prediction reconstructs the clean map from fully masked unknown positions with the same eligible data and anchor augmentation. Checkpoints minimize deterministic validation reconstruction loss. Historical training and the main benchmark use seed 20261013. The mechanism controls reuse one existing Direct/diffusion CNN checkpoint pair and use generation seed 42.
 
-OpenAI Codex assisted with implementation of the experiment and analysis scripts, figure preparation, and manuscript drafting and revision.
+OpenAI Codex assisted with code and analyses.
 
 \section{Thermodynamic criteria and paired-interval sampling}
 \subsection{Shared requirements}
