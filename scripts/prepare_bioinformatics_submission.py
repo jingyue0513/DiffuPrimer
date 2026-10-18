@@ -44,6 +44,12 @@ def main():
   \def\@oddfoot{\hfil\thepage\hfil}
   \let\@evenfoot\@oddfoot
 }
+\def\ps@headings{
+  \def\@oddhead{\hbox to \textwidth{\sffamily\small DiffuPrimer\hfill\thepage}}
+  \let\@evenhead\@oddhead
+  \let\@oddfoot\@empty\let\@evenfoot\@empty
+}
+\ps@headings
 \makeatother
 ''')
     shutil.copytree(DRAFT / 'figures', OUT / 'figures', dirs_exist_ok=True)
