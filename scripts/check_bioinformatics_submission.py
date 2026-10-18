@@ -58,6 +58,10 @@ def main():
     compiled=set(re.findall(r'\\bibitem\[.*?\]\{([^}]+)\}',(OUT/'manuscript.bbl').read_text(),re.S))
     assert citations==compiled and len(citations)==52,(len(citations),len(compiled))
     abstract=text.split('\\abstract{',1)[1].split('\\keywords',1)[0]
+    assert re.findall(r'\\textbf\{([^}]+)\}',abstract)==['Motivation:', 'Results:', 'Availability and implementation:']
+    assert 'Contact:' not in abstract and 'Supplementary Information:' not in abstract
+    assert '20 candidates per gene' in abstract
+    assert r'\corresp' in text and '18837614038@163.com' in text.split(r'\abstract{',1)[0]
     for key,val in macros.items():abstract=abstract.replace('\\'+key+'{}',val)
     abstract=re.sub(r'\\href\{[^}]+\}\{([^}]+)\}',r'\1',abstract)
     abstract=re.sub(r'\\url\{[^}]+\}','URL',abstract)

@@ -7,11 +7,9 @@ P=ROOT/'paper/bioinformatics_submission'
 
 def main():
     main=P/'manuscript.tex';text=main.read_text()
-    abstract=r'''\abstract{\textbf{Motivation:} qPCR primer design must balance thermodynamic compatibility, target specificity and the need for alternative or partially fixed pairs. A common representation would support these tasks under changing design requirements.\\
-\textbf{Results:} We present DiffuPrimer, a conditional discrete diffusion model of paired binding positions on a fixed transcript. A constrained interval decoder supports length-controlled design, fixed-primer completion and local redesign. On two disjoint 75-gene mouse test sets, DiffuPrimer produced \MainCNNRet{} and \ExtraCNNRet{} RNA-specific pairs per gene without predicted genomic products, compared with \MainPrimerRet{} and \ExtraPrimerRet{} for Primer3. Frozen-score controls preserved most retained-count performance, whereas iterative network updates increased positional diversity.\\
-\textbf{Availability and Implementation:} Python code and data: \url{https://github.com/jingyue0513/DiffuPrimer}; \href{https://archive.softwareheritage.org/swh:1:rev:275d1c0acf64edba234d17c1a83094af597f6202/}{archived release}.\\
-\textbf{Contact:} \href{mailto:18837614038@163.com}{18837614038@163.com}.\\
-\textbf{Supplementary Information:} Supplementary data accompany this article.}'''
+    abstract=r'''\abstract{\textbf{Motivation:} qPCR primer design often requires alternative pairs or replacement of one primer as design requirements change. These tasks require compatible binding positions, suitable thermodynamic properties and target specificity.\\
+\textbf{Results:} We present DiffuPrimer, a conditional discrete diffusion model of paired primer-binding positions on a fixed transcript. A constrained decoder supports alternative generation, product-length control, fixed-primer completion and local redesign. With a budget of 20 candidates per gene, DiffuPrimer yielded \MainCNNRet{} and \ExtraCNNRet{} RNA-specific pairs per gene without predicted genomic products on two disjoint 75-gene mouse test sets, compared with \MainPrimerRet{} and \ExtraPrimerRet{} for Primer3. Frozen-score controls preserved most candidate-count gains, while iterative network updates increased positional diversity.\\
+\textbf{Availability and implementation:} Code and data are available at \url{https://github.com/jingyue0513/DiffuPrimer}, with an \href{https://archive.softwareheritage.org/swh:1:rev:275d1c0acf64edba234d17c1a83094af597f6202/}{archived release}.}'''
     a=text.index(r'\abstract{');b=text.index(r'\keywords',a);text=text[:a]+abstract+'\n'+text[b:]
     disclosure='OpenAI Codex assisted with implementation, analyses, figures and manuscript drafting and revision.'
     a=text.index(r'\section*{Acknowledgements}') if r'\section*{Acknowledgements}' in text else text.index(r'\section*{Conflict of interest}');b=text.index(r'{\small\setlength{\bibsep}',a)
