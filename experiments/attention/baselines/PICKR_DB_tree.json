@@ -1,0 +1,39 @@
+{
+  "sha": "f72760013722c2d698c9c7f3b80ac1640ea8b4c7",
+  "url": "https://api.github.com/repos/tmolley2/PICKR_DB/git/trees/f72760013722c2d698c9c7f3b80ac1640ea8b4c7",
+  "tree": [
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64899c7be80bb34ba239aa4372fcf5cdc8d83731",
+      "size": 915,
+      "url": "https://api.github.com/repos/tmolley2/PICKR_DB/git/blobs/64899c7be80bb34ba239aa4372fcf5cdc8d83731"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9badf7abf51e412ff7bbe1ce7b66c5b05145138c",
+      "size": 19126,
+      "url": "https://api.github.com/repos/tmolley2/PICKR_DB/git/blobs/9badf7abf51e412ff7bbe1ce7b66c5b05145138c"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "750c2e06023776290b165bff82dac488b9a13491",
+      "size": 4873,
+      "url": "https://api.github.com/repos/tmolley2/PICKR_DB/git/blobs/750c2e06023776290b165bff82dac488b9a13491"
+    },
+    {
+      "path": "raw_primers_3.csv.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "814b977dca5c5de629096f03bf25322e83be23d7",
+      "size": 59476480,
+      "url": "https://api.github.com/repos/tmolley2/PICKR_DB/git/blobs/814b977dca5c5de629096f03bf25322e83be23d7"
+    }
+  ],
+  "truncated": false
+}

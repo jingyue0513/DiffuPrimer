@@ -15,6 +15,8 @@ for base in (ROOT/'experiments').iterdir():
    item=base/name
    if item.is_symlink():paths.append(item)
    elif name=='src' and item.exists():paths += list(item.rglob('*.py'))
+for p in (ROOT/'experiments/attention/baselines').glob('*'):
+ if p.is_file() and p.suffix in {'.py','.json','.md'}:paths.append(p)
 for name in ['reproduction.md','data_dictionary.md','independent_validation.md','attention_implementation_record.md',
              'attention_related_work.md','bioinformatics_submission_requirements.md']:
  paths.append(ROOT/'docs'/name)
@@ -23,7 +25,7 @@ for p in (ROOT/'release').iterdir():
 for name in ['bowtie_manifest.json','manifest.json']:paths.append(ROOT/'tools'/name)
 for name in ['bowtie_exhaustive','sqlite_specificity']:
  paths.append(ROOT/'results/checks'/name/'check.json')
-paths=sorted({p for p in paths if p.is_file() and '__pycache__' not in p.parts})
+paths=sorted({p for p in paths if (p.is_file() or p.is_symlink()) and '__pycache__' not in p.parts})
 for p in paths:
  assert p.stat().st_size<95*1024**2,p
  if p.is_symlink():assert p.resolve().is_relative_to(ROOT) and not str(p.readlink()).startswith('/'),p

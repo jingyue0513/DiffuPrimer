@@ -1,0 +1,42 @@
+[
+  {
+    "directory": "experiments/attention/results/evaluations/primercast_design_121-160_test_seed20261013",
+    "targets": 75,
+    "returned_native_topK_pairs": 668,
+    "exact_compatible_pairs": 222,
+    "mean_unique_common_feasible": 1.84,
+    "seconds": 532.9693833254278,
+    "all_native_scores_finite": true,
+    "common_specificity_assessed": false
+  },
+  {
+    "directory": "experiments/attention/results/evaluations/primercast_design_161-200_test_seed20261013",
+    "targets": 75,
+    "returned_native_topK_pairs": 724,
+    "exact_compatible_pairs": 300,
+    "mean_unique_common_feasible": 2,
+    "seconds": 535.9059945605695,
+    "all_native_scores_finite": true,
+    "common_specificity_assessed": false
+  },
+  {
+    "directory": "experiments/attention/results/evaluations/primercast_design_80-120_test_seed20261013",
+    "targets": 75,
+    "returned_native_topK_pairs": 608,
+    "exact_compatible_pairs": 300,
+    "mean_unique_common_feasible": 2.16,
+    "seconds": 545.8993673808873,
+    "all_native_scores_finite": true,
+    "common_specificity_assessed": false
+  },
+  {
+    "directory": "experiments/attention/results/evaluations/primercast_design_80-200_test_seed20261013",
+    "targets": 75,
+    "returned_native_topK_pairs": 974,
+    "exact_compatible_pairs": 420,
+    "mean_unique_common_feasible": 2.52,
+    "seconds": 612.8200549222529,
+    "all_native_scores_finite": true,
+    "common_specificity_assessed": false
+  }
+]

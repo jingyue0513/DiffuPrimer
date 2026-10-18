@@ -79,7 +79,7 @@ def main():
 \corresp[$\ast$]{Corresponding author: Shiyue Mei. \href{mailto:18837614038@163.com}{18837614038@163.com}. Jingyue Li: \href{mailto:lijingyue513@163.com}{lijingyue513@163.com}.}'''
     abstract = r'''\abstract{\textbf{Motivation:} Primer-pair design requires compatible alternatives and adaptation to changing constraints.\\
 \textbf{Results:} DiffuPrimer models paired binding positions using conditional discrete diffusion. Constrained recovery supports length control, fixed-primer completion and redesign. Two separate 75-gene mouse cohorts show increased reference-screened retention relative to Primer3. Strong direct decoding and frozen-score controls attribute most count gains to denoising-trained scores and constrained sampling. Sixteen-step network updates provide no consistent count gain over frozen scores, while improving retained-pair positional diversity. Equal-CPU direct search provides greater gene coverage but fewer retained pairs.\\
-\textbf{Availability and Implementation:} Python source, checkpoints and test data: \url{https://github.com/jingyue0513/DiffuPrimer}.\\
+\textbf{Availability and Implementation:} \url{https://github.com/jingyue0513/DiffuPrimer} (Python, MIT).\\
 \textbf{Contact:} \href{mailto:18837614038@163.com}{18837614038@163.com}.\\
 \textbf{Supplementary Information:} Supplementary methods, tables and figures accompany this article.}'''
     text=(DRAFT/'manuscript.tex').read_text()

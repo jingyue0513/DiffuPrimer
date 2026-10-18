@@ -1,0 +1,66 @@
+[
+  {
+    "directory": "experiments/attention/results/evaluations/qprimer_completion_forward_test_seed20261013",
+    "targets": 75,
+    "returned_candidates": 1500,
+    "mean_unique_feasible_pairs": 20,
+    "anchors_preserved": true,
+    "common_specificity_assessed": false
+  },
+  {
+    "directory": "experiments/attention/results/evaluations/qprimer_completion_reverse_test_seed20261013",
+    "targets": 75,
+    "returned_candidates": 1500,
+    "mean_unique_feasible_pairs": 20,
+    "anchors_preserved": true,
+    "common_specificity_assessed": false
+  },
+  {
+    "directory": "experiments/attention/results/evaluations/qprimer_design_121-160_test_seed20261013",
+    "targets": 75,
+    "returned_candidates": 1500,
+    "mean_unique_feasible_pairs": 20,
+    "anchors_preserved": true,
+    "common_specificity_assessed": false
+  },
+  {
+    "directory": "experiments/attention/results/evaluations/qprimer_design_161-200_test_seed20261013",
+    "targets": 75,
+    "returned_candidates": 1500,
+    "mean_unique_feasible_pairs": 20,
+    "anchors_preserved": true,
+    "common_specificity_assessed": false
+  },
+  {
+    "directory": "experiments/attention/results/evaluations/qprimer_design_80-120_test_seed20261013",
+    "targets": 75,
+    "returned_candidates": 1500,
+    "mean_unique_feasible_pairs": 20,
+    "anchors_preserved": true,
+    "common_specificity_assessed": false
+  },
+  {
+    "directory": "experiments/attention/results/evaluations/qprimer_design_80-200_test_seed20261013",
+    "targets": 75,
+    "returned_candidates": 1500,
+    "mean_unique_feasible_pairs": 20,
+    "anchors_preserved": true,
+    "common_specificity_assessed": false
+  },
+  {
+    "directory": "experiments/attention/results/evaluations/qprimer_redesign_forward_test_seed20261013",
+    "targets": 75,
+    "returned_candidates": 1406,
+    "mean_unique_feasible_pairs": 18.733333333333334,
+    "anchors_preserved": true,
+    "common_specificity_assessed": false
+  },
+  {
+    "directory": "experiments/attention/results/evaluations/qprimer_redesign_reverse_test_seed20261013",
+    "targets": 75,
+    "returned_candidates": 1392,
+    "mean_unique_feasible_pairs": 18.466666666666665,
+    "anchors_preserved": true,
+    "common_specificity_assessed": false
+  }
+]

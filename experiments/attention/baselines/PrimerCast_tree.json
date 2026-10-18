@@ -1,0 +1,1046 @@
+{
+  "sha": "50d357b43a727196b5ae2e1c2e7d041519243673",
+  "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/50d357b43a727196b5ae2e1c2e7d041519243673",
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "887c950c70c75171cc85ec5aa7b268ea2be7a57a",
+      "size": 374,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/887c950c70c75171cc85ec5aa7b268ea2be7a57a"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2231337ee9073af02164b8d487c9879098e46e1",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/f2231337ee9073af02164b8d487c9879098e46e1"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af663b1952df67418bfbccb343a598893ff5dd58",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/af663b1952df67418bfbccb343a598893ff5dd58"
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75c248d8a621962a79410b05e98243124727d87f",
+      "size": 16342,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/75c248d8a621962a79410b05e98243124727d87f"
+    },
+    {
+      "path": ".github/workflows/snakemake.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c516368e508d40ca8247c149c9acdf483daa243e",
+      "size": 831,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/c516368e508d40ca8247c149c9acdf483daa243e"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e340fb07656baca58c36d27392713fc5556a652",
+      "size": 813,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/8e340fb07656baca58c36d27392713fc5556a652"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad2c6d5e5eecbc57bba9277778a7eecc3c08a2b9",
+      "size": 1848,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/ad2c6d5e5eecbc57bba9277778a7eecc3c08a2b9"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2b8a65224d0fcdfdc1dcd72aefec7b5c6da9487",
+      "size": 5953,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/a2b8a65224d0fcdfdc1dcd72aefec7b5c6da9487"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "212b2c7483cd2f36f55ea38d8b8493e11960f418",
+      "size": 2417,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/212b2c7483cd2f36f55ea38d8b8493e11960f418"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fb44ace616b330d3098a39effe98119a9319f91",
+      "size": 1072,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/1fb44ace616b330d3098a39effe98119a9319f91"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99a279680da2ebbff6ae3c37f17021dfa887d2a1",
+      "size": 9427,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/99a279680da2ebbff6ae3c37f17021dfa887d2a1"
+    },
+    {
+      "path": "Snakefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcf13008a29b41bcb9503cab8143527567125659",
+      "size": 32397,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/fcf13008a29b41bcb9503cab8143527567125659"
+    },
+    {
+      "path": "codecov.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5aaec8b9d06e62e6da1c42fc0fd021cfb6ac468",
+      "size": 211,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/e5aaec8b9d06e62e6da1c42fc0fd021cfb6ac468"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a9bf3a6a50b00e3c283983df3d7b6f1b9ccc308",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/7a9bf3a6a50b00e3c283983df3d7b6f1b9ccc308"
+    },
+    {
+      "path": "docs/gui_getting_started.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "827b8d6e7d5c6d58498251c127356bd43e713271",
+      "size": 3718,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/827b8d6e7d5c6d58498251c127356bd43e713271"
+    },
+    {
+      "path": "docs/output_interpretation_guide.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3595ebce2894453fb67a556ecaf363c71bd65cbf",
+      "size": 7116,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/3595ebce2894453fb67a556ecaf363c71bd65cbf"
+    },
+    {
+      "path": "docs/primercast_cli.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdeb0689cdc5ad83eba265bc440f3b175cee3cb2",
+      "size": 1166,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/bdeb0689cdc5ad83eba265bc440f3b175cee3cb2"
+    },
+    {
+      "path": "environment.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8538e51ec73c339063fc2acf8a0ba9ca9144c889",
+      "size": 568,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/8538e51ec73c339063fc2acf8a0ba9ca9144c889"
+    },
+    {
+      "path": "gui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "716ae2cdfac67a800f48d8d6a5cf58dd16b38168",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/716ae2cdfac67a800f48d8d6a5cf58dd16b38168"
+    },
+    {
+      "path": "gui/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "gui/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4e61608a021bd1ab8d9cc82a6c02b7cbb501ab0",
+      "size": 210706,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/c4e61608a021bd1ab8d9cc82a6c02b7cbb501ab0"
+    },
+    {
+      "path": "gui/error_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a617d1a6da168323722f56bfbc48b26fd7f3348",
+      "size": 9959,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/6a617d1a6da168323722f56bfbc48b26fd7f3348"
+    },
+    {
+      "path": "gui/fetch_virus_map_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcdff2b9acaacb4b3bfd6d48b386893cfa969170",
+      "size": 10015,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/bcdff2b9acaacb4b3bfd6d48b386893cfa969170"
+    },
+    {
+      "path": "gui/redirect_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7f2852816192ed59ee6cb6921b2e642ca962a84",
+      "size": 2080,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/b7f2852816192ed59ee6cb6921b2e642ca962a84"
+    },
+    {
+      "path": "gui/run_isolation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df3de370342228347aaf0e1f355466861a8a516e",
+      "size": 2726,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/df3de370342228347aaf0e1f355466861a8a516e"
+    },
+    {
+      "path": "gui/snakefile_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae55fa8f06d35b0f9f34ce6da8375a1186bf8975",
+      "size": 4156,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/ae55fa8f06d35b0f9f34ce6da8375a1186bf8975"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891627cb53f147b6810a970094d8cf6f83c5d034",
+      "size": 914,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/891627cb53f147b6810a970094d8cf6f83c5d034"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a86927f258967ac923c3945a72c559c1d7a0720",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/7a86927f258967ac923c3945a72c559c1d7a0720"
+    },
+    {
+      "path": "src/primercast",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "369f163a79a64b027255881be916513d33d225a1",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/369f163a79a64b027255881be916513d33d225a1"
+    },
+    {
+      "path": "src/primercast/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41741b8f3f3683d3dbbeea146058688b7bb02b7b",
+      "size": 100,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/41741b8f3f3683d3dbbeea146058688b7bb02b7b"
+    },
+    {
+      "path": "src/primercast/adapt_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "816f9f3dd5823e91d57870a61655ac977f76f8f6",
+      "size": 57881,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/816f9f3dd5823e91d57870a61655ac977f76f8f6"
+    },
+    {
+      "path": "src/primercast/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43965d1c87cf386890479800605f968c1c937e78",
+      "size": 2316,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/43965d1c87cf386890479800605f968c1c937e78"
+    },
+    {
+      "path": "src/primercast/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3a82d856c18ece0845ed6ee9d39448568fe6ef9",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/c3a82d856c18ece0845ed6ee9d39448568fe6ef9"
+    },
+    {
+      "path": "src/primercast/commands/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c9f5ce2984679e8646decbf716c1c1c1214ee54",
+      "size": 384,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/4c9f5ce2984679e8646decbf716c1c1c1214ee54"
+    },
+    {
+      "path": "src/primercast/commands/build_output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "751ea0113224c661140bba84d2f2a6dfc802588a",
+      "size": 21155,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/751ea0113224c661140bba84d2f2a6dfc802588a"
+    },
+    {
+      "path": "src/primercast/commands/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "186a7844d148a178858eb696910c97a29a647edc",
+      "size": 8733,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/186a7844d148a178858eb696910c97a29a647edc"
+    },
+    {
+      "path": "src/primercast/commands/evaluate_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39175ea9efb25b540f657de3488c36b842828af0",
+      "size": 6700,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/39175ea9efb25b540f657de3488c36b842828af0"
+    },
+    {
+      "path": "src/primercast/commands/export_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e49644e06087708cf0faaadc76cf19c0716e98ba",
+      "size": 29422,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/e49644e06087708cf0faaadc76cf19c0716e98ba"
+    },
+    {
+      "path": "src/primercast/commands/filter_primers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c360a198ca0f2a332f435599e83aa2ab6ff47b2",
+      "size": 21617,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/4c360a198ca0f2a332f435599e83aa2ab6ff47b2"
+    },
+    {
+      "path": "src/primercast/commands/generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0671e55aa8b2f4b49633f5b1bba81902af2e4c7",
+      "size": 9578,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/a0671e55aa8b2f4b49633f5b1bba81902af2e4c7"
+    },
+    {
+      "path": "src/primercast/commands/generate_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dc7e9e38bbb59eb77d9d976995e6ca73e7ff0bd",
+      "size": 8494,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/9dc7e9e38bbb59eb77d9d976995e6ca73e7ff0bd"
+    },
+    {
+      "path": "src/primercast/commands/parse_probe_mapping.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3e47a35efb0f1fca94b1df52589dff18634e7ea",
+      "size": 2303,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/e3e47a35efb0f1fca94b1df52589dff18634e7ea"
+    },
+    {
+      "path": "src/primercast/commands/pick_representatives.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c0ede736dcb91e83d0a2fd383d9756abe71a3dd",
+      "size": 25032,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/6c0ede736dcb91e83d0a2fd383d9756abe71a3dd"
+    },
+    {
+      "path": "src/primercast/commands/prepare_features.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0376c9293acb7c055dfb5b15c0800293457e25ce",
+      "size": 2664,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/0376c9293acb7c055dfb5b15c0800293457e25ce"
+    },
+    {
+      "path": "src/primercast/commands/prepare_input.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff1979678e19acc6ba5f66ebf2aa30faf2d07169",
+      "size": 11955,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/ff1979678e19acc6ba5f66ebf2aa30faf2d07169"
+    },
+    {
+      "path": "src/primercast/commands/quick_design.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5593478c13b753690ce7dbe34d5d1996ff013ef",
+      "size": 137824,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/e5593478c13b753690ce7dbe34d5d1996ff013ef"
+    },
+    {
+      "path": "src/primercast/commands/rescue_evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b51e57ce1491cfde2bb245ab80f5ee4f82511d7",
+      "size": 16963,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/5b51e57ce1491cfde2bb245ab80f5ee4f82511d7"
+    },
+    {
+      "path": "src/primercast/commands/select_multiplex.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc15e923c04a6e4dbed0d700e22ca3249958c770",
+      "size": 14610,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/fc15e923c04a6e4dbed0d700e22ca3249958c770"
+    },
+    {
+      "path": "src/primercast/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a00eda8ead3ec67dd1cbe20aec6ae5db0028bb7",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/6a00eda8ead3ec67dd1cbe20aec6ae5db0028bb7"
+    },
+    {
+      "path": "src/primercast/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cffe2697fc4f01dc5475814f7083b226905840f",
+      "size": 36,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/1cffe2697fc4f01dc5475814f7083b226905840f"
+    },
+    {
+      "path": "src/primercast/data/combined_classifier.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5bad61581456886d763f898cf63110dd143520d",
+      "size": 214465,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/f5bad61581456886d763f898cf63110dd143520d"
+    },
+    {
+      "path": "src/primercast/data/combined_regressor.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a67d05d273be221d293aa5adfd5276fd1169a170",
+      "size": 214800,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/a67d05d273be221d293aa5adfd5276fd1169a170"
+    },
+    {
+      "path": "src/primercast/data/standard_scaler.joblib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7015fa8f440a9ccbe5962d090ada1b6eaf0facae",
+      "size": 1255,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/7015fa8f440a9ccbe5962d090ada1b6eaf0facae"
+    },
+    {
+      "path": "src/primercast/external",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0be86c8a10e9fa53e7b3ac5a5e8aaf200d4fb8c",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/d0be86c8a10e9fa53e7b3ac5a5e8aaf200d4fb8c"
+    },
+    {
+      "path": "src/primercast/external/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40c869e4925a73545571eea41bd5aa0583994c16",
+      "size": 521,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/40c869e4925a73545571eea41bd5aa0583994c16"
+    },
+    {
+      "path": "src/primercast/external/bowtie.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5330da5e496ec76055c88e7abfaa2292e0bb7e0",
+      "size": 3580,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/c5330da5e496ec76055c88e7abfaa2292e0bb7e0"
+    },
+    {
+      "path": "src/primercast/external/mafft.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d1f9bb90642f765a44b5559539de432f8821b79",
+      "size": 2758,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/6d1f9bb90642f765a44b5559539de432f8821b79"
+    },
+    {
+      "path": "src/primercast/external/vienna.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26ad5f8ac2ced87734a53c23728e57373b6353a8",
+      "size": 5425,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/26ad5f8ac2ced87734a53c23728e57373b6353a8"
+    },
+    {
+      "path": "src/primercast/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85a8d52026b999d07e2390d37cefa68d2c7544d4",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/85a8d52026b999d07e2390d37cefa68d2c7544d4"
+    },
+    {
+      "path": "src/primercast/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ecd21732d8c9829065ea0f093e7f80036e423b9",
+      "size": 726,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/5ecd21732d8c9829065ea0f093e7f80036e423b9"
+    },
+    {
+      "path": "src/primercast/models/architectures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2391d8c94ce203478c814719e6908f3e384a61bd",
+      "size": 8142,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/2391d8c94ce203478c814719e6908f3e384a61bd"
+    },
+    {
+      "path": "src/primercast/models/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd5854b25a4c132bcacc0979d26af9ad3ff3712d",
+      "size": 3370,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/bd5854b25a4c132bcacc0979d26af9ad3ff3712d"
+    },
+    {
+      "path": "src/primercast/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e72cabc42ccdcf76b04d14dd5d3f39ce4548f3ee",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/e72cabc42ccdcf76b04d14dd5d3f39ce4548f3ee"
+    },
+    {
+      "path": "src/primercast/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d264d63a41ddc85b807d195b705e8288579da88",
+      "size": 1179,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/5d264d63a41ddc85b807d195b705e8288579da88"
+    },
+    {
+      "path": "src/primercast/utils/diagnostics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e371dbd1fd5b86fb78068c58c87c5d65cdac9431",
+      "size": 10779,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/e371dbd1fd5b86fb78068c58c87c5d65cdac9431"
+    },
+    {
+      "path": "src/primercast/utils/encoding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23bb2e9492a3af382d0adfa26c54755e0405dc79",
+      "size": 2375,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/23bb2e9492a3af382d0adfa26c54755e0405dc79"
+    },
+    {
+      "path": "src/primercast/utils/params.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6339fda5b6bcb83493c28133e2c7c26e1db7ca0",
+      "size": 4065,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/a6339fda5b6bcb83493c28133e2c7c26e1db7ca0"
+    },
+    {
+      "path": "src/primercast/utils/probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de75e5ad828c6001f0c34260275181bd12caa119",
+      "size": 2664,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/de75e5ad828c6001f0c34260275181bd12caa119"
+    },
+    {
+      "path": "src/primercast/utils/sequences.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11823d13c4e2bc97b5a15f8f92b2dd81c083766b",
+      "size": 1935,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/11823d13c4e2bc97b5a15f8f92b2dd81c083766b"
+    },
+    {
+      "path": "src/primercast/utils/wobble.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3bb6f41297c72e371956634cd9dca3f871d938d",
+      "size": 4526,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/f3bb6f41297c72e371956634cd9dca3f871d938d"
+    },
+    {
+      "path": "target_seqs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f7f19358ead6eb859aa4c4f05bdbf9073bdef0d7",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/f7f19358ead6eb859aa4c4f05bdbf9073bdef0d7"
+    },
+    {
+      "path": "target_seqs/original",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b6a10f772551cbe7b289df1bb28ce097e546d85",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/7b6a10f772551cbe7b289df1bb28ce097e546d85"
+    },
+    {
+      "path": "target_seqs/original/H1.fa",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e53ba41e93ddc3fddbd910bc7b21c260f9f5eb56",
+      "size": 347389,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/e53ba41e93ddc3fddbd910bc7b21c260f9f5eb56"
+    },
+    {
+      "path": "target_seqs/original/H3.fa",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a91482091a9d6b21e2f034e3958bc5144d17bda3",
+      "size": 412608,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/a91482091a9d6b21e2f034e3958bc5144d17bda3"
+    },
+    {
+      "path": "target_seqs/original/H5.fa",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab562cc6ba741ec8baab5501a92b9ca5862e1566",
+      "size": 100864,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/ab562cc6ba741ec8baab5501a92b9ca5862e1566"
+    },
+    {
+      "path": "target_seqs/original/HUMAN.fa.bz2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f92072cbeeff6c474449cd466d7071552fe28aa",
+      "size": 17647933,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/9f92072cbeeff6c474449cd466d7071552fe28aa"
+    },
+    {
+      "path": "target_seqs/original/TEST.fa",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "964ad5340cdeff35b4a01d421026177643eb5264",
+      "size": 267,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/964ad5340cdeff35b4a01d421026177643eb5264"
+    },
+    {
+      "path": "target_seqs/original/TEST_2.fa",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1efe17fc3f569d74952f8b3495624e49d0b9d638",
+      "size": 251,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/1efe17fc3f569d74952f8b3495624e49d0b9d638"
+    },
+    {
+      "path": "terraform",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53e3e6834305de6035043b857063f59779d845d5",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/53e3e6834305de6035043b857063f59779d845d5"
+    },
+    {
+      "path": "terraform/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a274ea8b3d73a08c1d69d31cabdce716c6be57ee",
+      "size": 359,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/a274ea8b3d73a08c1d69d31cabdce716c6be57ee"
+    },
+    {
+      "path": "terraform/.terraform.lock.hcl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df5735e4f9f60ef06efc2886e338ff509e0322d4",
+      "size": 2266,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/df5735e4f9f60ef06efc2886e338ff509e0322d4"
+    },
+    {
+      "path": "terraform/MIGRATION_STATUS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3498b4b27b42b013ae8de9cbc4e05ae263d02965",
+      "size": 2448,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/3498b4b27b42b013ae8de9cbc4e05ae263d02965"
+    },
+    {
+      "path": "terraform/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e40d9a03b96c550c26737d9b14d47bcde13524d",
+      "size": 6981,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/8e40d9a03b96c550c26737d9b14d47bcde13524d"
+    },
+    {
+      "path": "terraform/artifact_registry.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad25e2587adb34910a6a5354885db6dae26505f0",
+      "size": 1092,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/ad25e2587adb34910a6a5354885db6dae26505f0"
+    },
+    {
+      "path": "terraform/cloud_run.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60e6eabd51aece040db0090eb93ed869ee387592",
+      "size": 3911,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/60e6eabd51aece040db0090eb93ed869ee387592"
+    },
+    {
+      "path": "terraform/error_reports.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f87930a1c6b77d96f73d05766ed30876713ac09b",
+      "size": 4056,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/f87930a1c6b77d96f73d05766ed30876713ac09b"
+    },
+    {
+      "path": "terraform/main.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a8303eca258989b9fcf9bf390e2e4bfe22854a9",
+      "size": 1451,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/3a8303eca258989b9fcf9bf390e2e4bfe22854a9"
+    },
+    {
+      "path": "terraform/outputs.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba6d8a19213d80c38497a6f358a9e311f2d3ecb7",
+      "size": 1464,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/ba6d8a19213d80c38497a6f358a9e311f2d3ecb7"
+    },
+    {
+      "path": "terraform/staging.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb93d1ec2e3f42d16a8b0bdfcb3c1233bab9f938",
+      "size": 2908,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/eb93d1ec2e3f42d16a8b0bdfcb3c1233bab9f938"
+    },
+    {
+      "path": "terraform/terraform.tfvars.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6519903b5b8221c27742618b0bcbe400a7fe317",
+      "size": 726,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/c6519903b5b8221c27742618b0bcbe400a7fe317"
+    },
+    {
+      "path": "terraform/variables.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38edfb87e120c5bae79688bd75d56b231a358ebe",
+      "size": 3349,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/38edfb87e120c5bae79688bd75d56b231a358ebe"
+    },
+    {
+      "path": "terraform/versions.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7308627f635bb95af5acd1cf0f1471890f6e5190",
+      "size": 544,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/7308627f635bb95af5acd1cf0f1471890f6e5190"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c14625221d50b63472ec5cb7277b91b020bc1fcf",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/c14625221d50b63472ec5cb7277b91b020bc1fcf"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d260538b006914ec050f966a1242977795ba041",
+      "size": 33,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/0d260538b006914ec050f966a1242977795ba041"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffd512f0d88e634a9e64aa2d74a7defd7fbf203b",
+      "size": 387,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/ffd512f0d88e634a9e64aa2d74a7defd7fbf203b"
+    },
+    {
+      "path": "tests/test_adapt_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b23646c3f4a90ee72ba16836c90fc727995e2c17",
+      "size": 21603,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/b23646c3f4a90ee72ba16836c90fc727995e2c17"
+    },
+    {
+      "path": "tests/test_build_output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f42fd477020b8985e97457e31117621e8bfaf79c",
+      "size": 6771,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/f42fd477020b8985e97457e31117621e8bfaf79c"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc9d9bedad76c4408cf9d2bcffb310f31bd4698c",
+      "size": 3001,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/fc9d9bedad76c4408cf9d2bcffb310f31bd4698c"
+    },
+    {
+      "path": "tests/test_commands.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff20608cec02e0e431fb771afb8a99c9b7c739aa",
+      "size": 10963,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/ff20608cec02e0e431fb771afb8a99c9b7c739aa"
+    },
+    {
+      "path": "tests/test_diagnostics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec27ffe11beb1b252fa17f3bf9417b5ad5d7a444",
+      "size": 15634,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/ec27ffe11beb1b252fa17f3bf9417b5ad5d7a444"
+    },
+    {
+      "path": "tests/test_encoding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c737c2fe55d8890b4744e7e94a16beace3a89857",
+      "size": 5700,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/c737c2fe55d8890b4744e7e94a16beace3a89857"
+    },
+    {
+      "path": "tests/test_error_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fbf358a13dcaf1a3db23055ed544a46fec0ae9b",
+      "size": 7006,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/0fbf358a13dcaf1a3db23055ed544a46fec0ae9b"
+    },
+    {
+      "path": "tests/test_evaluate_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "832f54f87a6f7d21ccf4a1adb7408a2a3ad8e98c",
+      "size": 5108,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/832f54f87a6f7d21ccf4a1adb7408a2a3ad8e98c"
+    },
+    {
+      "path": "tests/test_export_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb168a2965c8eeb63195523b6de30bdb75302da5",
+      "size": 2687,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/cb168a2965c8eeb63195523b6de30bdb75302da5"
+    },
+    {
+      "path": "tests/test_external.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62e620a0ac3b45c93fcd40f63a4a761804d2a831",
+      "size": 14603,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/62e620a0ac3b45c93fcd40f63a4a761804d2a831"
+    },
+    {
+      "path": "tests/test_filter_primers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "507dfec4c498acd99bc94e06fefa45781b4cbeb7",
+      "size": 4600,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/507dfec4c498acd99bc94e06fefa45781b4cbeb7"
+    },
+    {
+      "path": "tests/test_generate_extended.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bb80c8f74471192ae8ec796213d0825a8bd05a6",
+      "size": 3782,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/4bb80c8f74471192ae8ec796213d0825a8bd05a6"
+    },
+    {
+      "path": "tests/test_generate_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "999ec601a3019a4941dfbc8314b06ecee28961d6",
+      "size": 5179,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/999ec601a3019a4941dfbc8314b06ecee28961d6"
+    },
+    {
+      "path": "tests/test_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3508f048d5bc29e597ce66e7a3beeb37791ca188",
+      "size": 8343,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/3508f048d5bc29e597ce66e7a3beeb37791ca188"
+    },
+    {
+      "path": "tests/test_models_inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edc117edf4926edb61f15ece4d7744bf80c30fa7",
+      "size": 1908,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/edc117edf4926edb61f15ece4d7744bf80c30fa7"
+    },
+    {
+      "path": "tests/test_params.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b5a781fc264707e1fb90fe914fd2ea236eddf84",
+      "size": 1765,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/3b5a781fc264707e1fb90fe914fd2ea236eddf84"
+    },
+    {
+      "path": "tests/test_params_extended.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "344675e72243c0f619091b4e53ca5b3675116e1b",
+      "size": 7574,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/344675e72243c0f619091b4e53ca5b3675116e1b"
+    },
+    {
+      "path": "tests/test_parse_probe_mapping.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1dd4e7321d3e2a4076b40e7ab69021b782176e8",
+      "size": 2030,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/f1dd4e7321d3e2a4076b40e7ab69021b782176e8"
+    },
+    {
+      "path": "tests/test_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5981d073995cf38562acbb64ca088087b6fde7d7",
+      "size": 9055,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/5981d073995cf38562acbb64ca088087b6fde7d7"
+    },
+    {
+      "path": "tests/test_quick_design.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1285914647b0b39222595d4c4ba7d77b91664a3",
+      "size": 1968,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/d1285914647b0b39222595d4c4ba7d77b91664a3"
+    },
+    {
+      "path": "tests/test_redirect_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e9fd59ce975e13e82744f32d3ebe77748af95a2",
+      "size": 1566,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/8e9fd59ce975e13e82744f32d3ebe77748af95a2"
+    },
+    {
+      "path": "tests/test_run_isolation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fb644af9c0af27b4e3530672d78964bb2bb8f95",
+      "size": 2909,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/8fb644af9c0af27b4e3530672d78964bb2bb8f95"
+    },
+    {
+      "path": "tests/test_sequences.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffc3a54d46353a2f46243b4e08dc5fea780d4713",
+      "size": 1155,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/ffc3a54d46353a2f46243b4e08dc5fea780d4713"
+    },
+    {
+      "path": "tests/test_sequences_extended.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "506d569212200c9b9177b6716d0d5b11315676d2",
+      "size": 6041,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/506d569212200c9b9177b6716d0d5b11315676d2"
+    },
+    {
+      "path": "training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "118952cd15fe8836e0f7a6ecc355378309e27a56",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/118952cd15fe8836e0f7a6ecc355378309e27a56"
+    },
+    {
+      "path": "training/Classification_Optimization.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08b950a70e8fe9c5a38270e2beb75f38a1d37db0",
+      "size": 51938,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/08b950a70e8fe9c5a38270e2beb75f38a1d37db0"
+    },
+    {
+      "path": "training/Classification_Optimization_Hybrid.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa438fddb9a3b3ab9cb7ca70350f058a4aa7932c",
+      "size": 29436,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/aa438fddb9a3b3ab9cb7ca70350f058a4aa7932c"
+    },
+    {
+      "path": "training/Regression_Optimization.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7261334eda5e749724bc14a50f50c2d35d279466",
+      "size": 77367,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/7261334eda5e749724bc14a50f50c2d35d279466"
+    },
+    {
+      "path": "training/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f685ad9ea0c2d086c32836eb9ad3bd8c779ec3cd",
+      "size": 927,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/f685ad9ea0c2d086c32836eb9ad3bd8c779ec3cd"
+    },
+    {
+      "path": "training/adapt_pcr_external_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7349844d78240cdfd40dcd111e6ad6c60fb4913",
+      "size": 2368,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/f7349844d78240cdfd40dcd111e6ad6c60fb4913"
+    },
+    {
+      "path": "training/biomark_modules.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ea44fe433908c77ce9a0265bab28b2812d8cd3a",
+      "size": 22753,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/9ea44fe433908c77ce9a0265bab28b2812d8cd3a"
+    },
+    {
+      "path": "training/ml_modules.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02463d0d302e4e2608c62270b919efea00c7be32",
+      "size": 11848,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/02463d0d302e4e2608c62270b919efea00c7be32"
+    },
+    {
+      "path": "training/primer_modules.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47e1e8a9910af078d5500a8c5b41891197f80626",
+      "size": 13831,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/47e1e8a9910af078d5500a8c5b41891197f80626"
+    },
+    {
+      "path": "workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3006ff59f0421bb5f286fc299aef4b08f7ba3d4",
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/trees/a3006ff59f0421bb5f286fc299aef4b08f7ba3d4"
+    },
+    {
+      "path": "workflows/Snakefile.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81058da47f39bf66bf99c7b61c10a7f447d758a6",
+      "size": 30406,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/81058da47f39bf66bf99c7b61c10a7f447d758a6"
+    },
+    {
+      "path": "workflows/Snakefile.template",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11caa2eec4cd25ed348c87615c2fc58b12f53496",
+      "size": 32373,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/11caa2eec4cd25ed348c87615c2fc58b12f53496"
+    },
+    {
+      "path": "workflows/params.txt.template",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "622a7ccb13e091194eecf65aa17968572bce1f15",
+      "size": 1606,
+      "url": "https://api.github.com/repos/broadinstitute/PrimerCast/git/blobs/622a7ccb13e091194eecf65aa17968572bce1f15"
+    }
+  ],
+  "truncated": false
+}
