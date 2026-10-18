@@ -11,6 +11,9 @@ def main():
 \textbf{Results:} We present DiffuPrimer, a conditional discrete diffusion model of paired primer-binding positions on a fixed transcript. A constrained decoder supports alternative generation, product-length control, fixed-primer completion and local redesign. With a budget of 20 candidates per gene, DiffuPrimer yielded \MainCNNRet{} and \ExtraCNNRet{} RNA-specific pairs per gene without predicted genomic products on two disjoint 75-gene mouse test sets, compared with \MainPrimerRet{} and \ExtraPrimerRet{} for Primer3. Frozen-score controls preserved most candidate-count gains, while iterative network updates increased positional diversity.\\
 \textbf{Availability and implementation:} Code and data are available at \url{https://github.com/jingyue0513/DiffuPrimer}, with an \href{https://archive.softwareheritage.org/swh:1:rev:275d1c0acf64edba234d17c1a83094af597f6202/}{archived release}.}'''
     a=text.index(r'\abstract{');b=text.index(r'\keywords',a);text=text[:a]+abstract+'\n'+text[b:]
+    data_note='Supplementary data provide machine-readable cohort summaries, mechanism-control results and figure data.'
+    if data_note not in text:
+        text=text.replace(r'\section*{Conflict of interest}',data_note+'\n\n'+r'\section*{Conflict of interest}')
     disclosure='OpenAI Codex assisted with implementation, analyses, figures and manuscript drafting and revision.'
     a=text.index(r'\section*{Acknowledgements}') if r'\section*{Acknowledgements}' in text else text.index(r'\section*{Conflict of interest}');b=text.index(r'{\small\setlength{\bibsep}',a)
     text=text[:a]+r'''\section*{Conflict of interest}
@@ -20,8 +23,10 @@ The authors declare no conflict of interest.
     anchor=r'\subsection{Reference-screened candidate quality}'
     text=text.replace(disclosure+'\n\n','')
     text=text.replace(anchor,disclosure+'\n\n'+anchor,1)
+    text=re.sub(r'\\par\\noindent\\textit\{Alt text:\}[^\n]*?(?=\\end\{figure\*\})','',text)
     main.write_text(text)
     supp=(P/'supplementary.tex').read_text();head=supp[:supp.index(r'\section{')]
+    head=head.replace(r'\lastpage{8}',r'\lastpage{10}')
     head=re.sub(r'\\abstract\{[^}]*\}',r'\\abstract{}',head)
     if r'\renewcommand{\thesection}' not in head:
         head=head.replace(r'\begin{document}',r'\renewcommand{\thesection}{S\arabic{section}}'+'\n'+r'\renewcommand{\thetable}{S\arabic{table}}'+'\n'+r'\begin{document}')
@@ -120,6 +125,7 @@ Tables~\ref{tab:allmethods}--\ref{tab:contrasts} provide the complete-design, co
 
 '''
     figures=figures.replace('Added fixed-seed mechanism controls.','Fixed-seed mechanism controls.')
+    figures=re.sub(r'\\par\\noindent\\textit\{Alt text:\}[^\n]*?(?=\\end\{figure\*\})','',figures)
     (P/'supplementary.tex').write_text(head+methods+figures)
     results=json.loads((P/'mechanism_evidence.json').read_text())
     groups={(g['cohort'],g['method']):g for g in results['groups']}
@@ -148,6 +154,8 @@ Tables~\ref{tab:allmethods}--\ref{tab:contrasts} provide the complete-design, co
             assert fields[row['key']].get('doi')==row.get('doi')
         audit['main_bibliography_sha256']=hashlib.sha256((P/'references.bib').read_bytes()).hexdigest()
         (P/'reference_verification.json').write_text(json.dumps(audit,indent=2,ensure_ascii=False)+'\n')
+    import subprocess,sys
+    subprocess.run([sys.executable,str(ROOT/'scripts/plot_submission_mechanism.py')],check=True)
     print('Revised abstract, declarations and supplementary experimental methods')
 
 if __name__=='__main__':main()

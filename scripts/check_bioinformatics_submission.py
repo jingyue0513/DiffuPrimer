@@ -54,6 +54,7 @@ def main():
     assert r'\path{' not in supp and 'Regeneration}' not in supp
     assert 'AI assistance and remaining author declarations' not in supp
     assert 'mechanism_complete_table.tex' in supp
+    assert 'Alt text:' not in text and 'Alt text:' not in supp
     citations={k for b in re.findall(r'\\cite\w*\{([^}]+)\}',text) for k in b.split(',')}
     compiled=set(re.findall(r'\\bibitem\[.*?\]\{([^}]+)\}',(OUT/'manuscript.bbl').read_text(),re.S))
     assert citations==compiled and len(citations)==52,(len(citations),len(compiled))
