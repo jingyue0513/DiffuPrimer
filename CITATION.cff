@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the archived software release; the manuscript is not yet published."
+title: "DiffuPrimer: conditional discrete diffusion for primer-pair design"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Li
+    given-names: Jingyue
+    affiliation: "Sun Yat-sen University; Zhengzhou University; Henan Children's Hospital"
+  - family-names: Mei
+    given-names: Shiyue
+    affiliation: "Zhengzhou University; Henan Children's Hospital"
+    email: "18837614038@163.com"
+repository-code: "https://github.com/jingyue0513/DiffuPrimer"
+license: MIT
+keywords:
+  - qPCR
+  - primer design
+  - discrete diffusion

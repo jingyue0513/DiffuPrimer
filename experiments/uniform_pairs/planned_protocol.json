@@ -1,0 +1,24 @@
+{
+  "frozen_at": "2026-10-12T20:06:43.137633+00:00",
+  "reason": "Forward-first sampling can waste fixed-reverse proposals on geometrically impossible forward spans. Enumerating the common compatible span-pair pool provides a direct, anchor-aware uniform baseline for multi-solution design and completion.",
+  "scope": "75 held-out genes, K20, 3 seeds, broad range plus 3 disjoint ranges and fixed forward/reverse: 18 runs",
+  "constraints": "Identical single-oligo pool, geometry and pair delta-Tm guidance to joint learned models. Heterodimer feasibility assessed after sampling, as for learned models. No transcript/genome outcome used during sampling.",
+  "sampling_distribution": "Every compatible span pair receives probability 1/total pairs. Unavailable pairs yield missing proposals; duplicates are retained.",
+  "sha256": {
+    "src/diffuprimer/__init__.py": "0715c31c0544f468c4b6f9014939bde7cd96b43d18fe8dabb7b0a926e2132d21",
+    "src/diffuprimer/constraints.py": "8ea050c4d85a99a3f76d671a4b6b6e037875fbdaaa6c40c58c1bd519f30b2674",
+    "src/diffuprimer/sampling.py": "7ccb2a57a3a2dce1c41536d0947e9f164b05e2182182ab65e13fa3972641d395",
+    "src/diffuprimer/guidance.py": "0882377b312c0c141b14c737b3065a6d75c7391f2202d3d7444c463e981507b6",
+    "src/diffuprimer/splits.py": "457356e163b85cd7033ca1b5696977abcc529a4e4b799b7ebd770946a92bf65d",
+    "src/diffuprimer/io.py": "dea99cc192596213c404f6416341c96c7c343e270bee2778185537135653b14e",
+    "src/diffuprimer/acquisition.py": "bcac915fcfa4852504d46b673bee430cc79fdd213e5095a4cbf4620665ef27c6",
+    "src/diffuprimer/model.py": "78a77fe3b055f5eefc40d9ef45b132c280a091f281b11124a58c6835a96d6e42",
+    "src/diffuprimer/specificity.py": "61070ea1db3f329cea966c02e3579e7ed2689b687701c20df8bd19daa0c27aeb",
+    "src/diffuprimer/baselines.py": "666fffb90d70fda76e0fad4c0e2f1e558224ee89a7a6dec7640a939f297762b1",
+    "src/diffuprimer/training.py": "16ab6335d7597c89efb10a1d9695e6011d0e063e1f939ba0dfe292391664d999",
+    "src/diffuprimer/metrics.py": "4c9a55874458fc9ec0be722412afb5418727aea487900c4bf766910399190b94",
+    "src/diffuprimer/sequence.py": "3151a08d90775aaff1afe5049adbb4b68fe5c583dc5454a9c14a4cb3dff12a1b",
+    "src/diffuprimer/decode.py": "46ec85d58cc002fc6935d744ddb9ca1794f44eef8fba2a5e1c14accbe4bd5ee5",
+    "scripts/evaluate.py": "621b018f41fa44f49e47376eb4b95c2990252ddcf33fe5f7fa2734928a25a403"
+  }
+}

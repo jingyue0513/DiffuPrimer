@@ -1,0 +1,21 @@
+{
+  "frozen_at": "2026-10-12T18:21:12.904986+00:00",
+  "purpose": "Validation-only check of training-duration adequacy, followed by paired held-out comparison if retained",
+  "primary_training_epochs": 30,
+  "followup_training_epochs": 100,
+  "methods": [
+    "direct",
+    "diffusion"
+  ],
+  "initial_seed": 20261013,
+  "selection_data": "75 frozen validation genes",
+  "candidate_budget": 20,
+  "model_and_dataset_unchanged": true,
+  "dataset_sha256": "ef76fda8a01abcbf47f098858da2a33a64fa24fe4db3b037fab355bab5f73296",
+  "split_sha256": "f7e6b737c1e4ce824cbfe38c4f8f0f101e0c293c7c0228fa39b006a48cebf0ec",
+  "script_hashes": {
+    "train.py": "cc6da371c29e5809d5741505680d5fe1a0170bb0cec91dcc0992b8232dfbce3d",
+    "evaluate.py": "73404a83703d77e8aaf808f8d675cbe1838046f5f9ebf34a02befa92ea4b7543"
+  },
+  "primary_results_retained": true
+}

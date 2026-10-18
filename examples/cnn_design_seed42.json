@@ -1,0 +1,231 @@
+{
+  "reference_id": "NM_001355462.1 512bp excerpt",
+  "reference_length": 512,
+  "seed": 42,
+  "steps": 4,
+  "mode": "diffusion",
+  "checkpoint_sha256": "677bb87ac0cb7fa0534197c0f0c9e8dbd267eb1e22b10d9ee29e62afab05d2e4",
+  "conditions": {
+    "primer_min_length": 18,
+    "primer_max_length": 25,
+    "amplicon_min": 80,
+    "amplicon_max": 200,
+    "tm_min": 57.0,
+    "tm_max": 63.0,
+    "tm_opt": 60.0,
+    "max_tm_difference": 2.0,
+    "gc_min": 35.0,
+    "gc_max": 65.0,
+    "max_homopolymer": 5,
+    "max_structure_tm": 47.0,
+    "monovalent_mM": 50.0,
+    "divalent_mM": 1.5,
+    "dntp_mM": 0.6,
+    "primer_nM": 50.0
+  },
+  "fixed_forward": null,
+  "fixed_reverse": null,
+  "reference_specificity_screen_performed": false,
+  "candidates": [
+    {
+      "proposal_index": 0,
+      "structural_valid": true,
+      "forward_start": 103,
+      "forward_end": 124,
+      "reverse_start": 195,
+      "reverse_end": 215,
+      "forward_primer": "CACCTTCAGTGCCTTCCTCCA",
+      "reverse_primer": "TCCTTTGCTTCACCATGGCA",
+      "amplicon_length": 112,
+      "assessment": {
+        "geometry_pass": true,
+        "thermodynamic_pass": true,
+        "computational_feasible": true,
+        "failures": [],
+        "forward_properties": {
+          "valid_sequence": true,
+          "length": 21,
+          "gc_percent": 57.142857142857146,
+          "tm": 61.99808864251878,
+          "max_homopolymer": 2,
+          "hairpin_tm": 40.28339620257901,
+          "homodimer_tm": -30.652487394719685
+        },
+        "reverse_properties": {
+          "valid_sequence": true,
+          "length": 20,
+          "gc_percent": 50.0,
+          "tm": 60.178966846150274,
+          "max_homopolymer": 3,
+          "hairpin_tm": 0.0,
+          "homodimer_tm": 13.041886776709134
+        },
+        "tm_difference": 1.8191217963685062,
+        "heterodimer_tm": -17.047065858864073,
+        "shared_temperature_penalty": 3.996177285037561,
+        "specificity_status": "not_assessed",
+        "experimental_status": "not_tested"
+      }
+    },
+    {
+      "proposal_index": 1,
+      "structural_valid": true,
+      "forward_start": 98,
+      "forward_end": 120,
+      "reverse_start": 215,
+      "reverse_end": 235,
+      "forward_primer": "TATTCCACCTTCAGTGCCTTCC",
+      "reverse_primer": "GATGGCTGATGCTTGCTGTT",
+      "amplicon_length": 137,
+      "assessment": {
+        "geometry_pass": true,
+        "thermodynamic_pass": true,
+        "computational_feasible": true,
+        "failures": [],
+        "forward_properties": {
+          "valid_sequence": true,
+          "length": 22,
+          "gc_percent": 50.0,
+          "tm": 60.02626230185729,
+          "max_homopolymer": 2,
+          "hairpin_tm": 45.834394394813955,
+          "homodimer_tm": -30.652487394719685
+        },
+        "reverse_properties": {
+          "valid_sequence": true,
+          "length": 20,
+          "gc_percent": 50.0,
+          "tm": 59.18426641510098,
+          "max_homopolymer": 2,
+          "hairpin_tm": 39.58603833194718,
+          "homodimer_tm": -8.403842644288773
+        },
+        "tm_difference": 0.8419958867563082,
+        "heterodimer_tm": -12.628267322200145,
+        "shared_temperature_penalty": 1.6839917735126164,
+        "specificity_status": "not_assessed",
+        "experimental_status": "not_tested"
+      }
+    },
+    {
+      "proposal_index": 2,
+      "structural_valid": true,
+      "forward_start": 106,
+      "forward_end": 126,
+      "reverse_start": 194,
+      "reverse_end": 215,
+      "forward_primer": "CTTCAGTGCCTTCCTCCACA",
+      "reverse_primer": "TCCTTTGCTTCACCATGGCAC",
+      "amplicon_length": 109,
+      "assessment": {
+        "geometry_pass": true,
+        "thermodynamic_pass": true,
+        "computational_feasible": true,
+        "failures": [],
+        "forward_properties": {
+          "valid_sequence": true,
+          "length": 20,
+          "gc_percent": 55.0,
+          "tm": 59.602059425639084,
+          "max_homopolymer": 2,
+          "hairpin_tm": 34.480779166623165,
+          "homodimer_tm": -30.784629828584173
+        },
+        "reverse_properties": {
+          "valid_sequence": true,
+          "length": 21,
+          "gc_percent": 52.38095238095238,
+          "tm": 61.43124720279326,
+          "max_homopolymer": 3,
+          "hairpin_tm": 35.62396007065831,
+          "homodimer_tm": 13.041886776709134
+        },
+        "tm_difference": 1.829187777154175,
+        "heterodimer_tm": 6.4856191188926005,
+        "shared_temperature_penalty": 3.65837555430835,
+        "specificity_status": "not_assessed",
+        "experimental_status": "not_tested"
+      }
+    },
+    {
+      "proposal_index": 3,
+      "structural_valid": true,
+      "forward_start": 99,
+      "forward_end": 120,
+      "reverse_start": 195,
+      "reverse_end": 215,
+      "forward_primer": "ATTCCACCTTCAGTGCCTTCC",
+      "reverse_primer": "TCCTTTGCTTCACCATGGCA",
+      "amplicon_length": 116,
+      "assessment": {
+        "geometry_pass": true,
+        "thermodynamic_pass": true,
+        "computational_feasible": true,
+        "failures": [],
+        "forward_properties": {
+          "valid_sequence": true,
+          "length": 21,
+          "gc_percent": 52.38095238095238,
+          "tm": 60.27214716226382,
+          "max_homopolymer": 2,
+          "hairpin_tm": 45.834394394813955,
+          "homodimer_tm": -30.652487394719685
+        },
+        "reverse_properties": {
+          "valid_sequence": true,
+          "length": 20,
+          "gc_percent": 50.0,
+          "tm": 60.178966846150274,
+          "max_homopolymer": 3,
+          "hairpin_tm": 0.0,
+          "homodimer_tm": 13.041886776709134
+        },
+        "tm_difference": 0.09318031611354627,
+        "heterodimer_tm": -17.047065858864073,
+        "shared_temperature_penalty": 0.544294324527641,
+        "specificity_status": "not_assessed",
+        "experimental_status": "not_tested"
+      }
+    },
+    {
+      "proposal_index": 4,
+      "structural_valid": true,
+      "forward_start": 99,
+      "forward_end": 120,
+      "reverse_start": 201,
+      "reverse_end": 222,
+      "forward_primer": "ATTCCACCTTCAGTGCCTTCC",
+      "reverse_primer": "TGCTGTTTCCTTTGCTTCACC",
+      "amplicon_length": 123,
+      "assessment": {
+        "geometry_pass": true,
+        "thermodynamic_pass": true,
+        "computational_feasible": true,
+        "failures": [],
+        "forward_properties": {
+          "valid_sequence": true,
+          "length": 21,
+          "gc_percent": 52.38095238095238,
+          "tm": 60.27214716226382,
+          "max_homopolymer": 2,
+          "hairpin_tm": 45.834394394813955,
+          "homodimer_tm": -30.652487394719685
+        },
+        "reverse_properties": {
+          "valid_sequence": true,
+          "length": 21,
+          "gc_percent": 47.61904761904762,
+          "tm": 59.591297870053666,
+          "max_homopolymer": 3,
+          "hairpin_tm": 0.0,
+          "homodimer_tm": -33.84601238458808
+        },
+        "tm_difference": 0.680849292210155,
+        "heterodimer_tm": -26.761514479392105,
+        "shared_temperature_penalty": 1.36169858442031,
+        "specificity_status": "not_assessed",
+        "experimental_status": "not_tested"
+      }
+    }
+  ]
+}

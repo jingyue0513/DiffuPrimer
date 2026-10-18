@@ -1,0 +1,19 @@
+{
+  "declared_at": "2026-10-13T04:05:44.171865+00:00",
+  "seed": 20261013,
+  "change": "Apply fixed-reverse product-length, order and pair-Tm support before truncating the forward beam",
+  "affected_tasks": [
+    "Fixed reverse completion",
+    "Changed-length redesign retaining reverse"
+  ],
+  "methods": [
+    "diffusion",
+    "direct"
+  ],
+  "training": "Existing checkpoints unchanged",
+  "decoder_sha256": "5bde343bf416fde68ca26fabdbb765c97f76bb746a5dd85d1536a260826e76bb",
+  "previous_experiments": "Retained as original algorithm outputs",
+  "final_report_policy": "Use corrected anchored sampler for fixed-reverse neural tasks, keep old data in the supplementary audit",
+  "evaluation_script_sha256": "fe6d12d596f324f0c101b04734c1d17130a4d42c32c046eb778c37215d8de403",
+  "initial_evaluator_archive": "experiments/final_followup/script_history/original_evaluate.py"
+}

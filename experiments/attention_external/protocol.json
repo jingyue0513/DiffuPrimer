@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-13T08:51:14.255435+00:00",
+  "seed": 20261013,
+  "requested_genes": 75,
+  "selection_method": "Shuffle the full gene-ID-sorted official protein-coding NM_ catalog after excluding all original 500 gene IDs, then take the first eligible 75 genes in that random order",
+  "eligibility": "Complete official NM_ isoform sequence availability and no MMseqs2 >=80% identity, >=80% query coverage AND >=80% target coverage hit to an original training-gene isoform",
+  "template_rule": "Lexicographically first annotated NM_ accession version per gene, as in the original study",
+  "candidate_outcomes_consulted": false,
+  "model_evaluation_performed": false,
+  "original_selection_sha256": "30f4054afef27872827395f1acd4fd698549a344ff87704e08fe218789a4ba0d",
+  "original_split_sha256": "f7e6b737c1e4ce824cbfe38c4f8f0f101e0c293c7c0228fa39b006a48cebf0ec",
+  "reference_files": [
+    {
+      "name": "GCF_000001635.27_GRCm39_genomic.gff.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/635/GCF_000001635.27_GRCm39/GCF_000001635.27_GRCm39_genomic.gff.gz",
+      "md5": "f0bc4339da97f2301929d2028bbb35ce",
+      "sha256": "03c37a43729593acafc4dd5092e075155ba2944fd63d5267e09b917d917b0cf9",
+      "bytes": 43813395
+    },
+    {
+      "name": "GCF_000001635.27_GRCm39_rna.fna.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/635/GCF_000001635.27_GRCm39/GCF_000001635.27_GRCm39_rna.fna.gz",
+      "md5": "232bb68742e56492ce7b0f22b63800cd",
+      "sha256": "eb8f27faafe4b15b5392583493a2601b2292fea502a602c1976ad97fbc24b29d",
+      "bytes": 108614296
+    }
+  ],
+  "current_reference_sha256": {
+    "GCF_000001635.27_GRCm39_genomic.gff.gz": "03c37a43729593acafc4dd5092e075155ba2944fd63d5267e09b917d917b0cf9",
+    "GCF_000001635.27_GRCm39_rna.fna.gz": "eb8f27faafe4b15b5392583493a2601b2292fea502a602c1976ad97fbc24b29d"
+  },
+  "catalog_genes": 21034,
+  "candidate_genes_after_original_ID_exclusion": 20534,
+  "original_genes": 500,
+  "original_training_genes": 350,
+  "homology_rule": {
+    "identity": 0.8,
+    "query_coverage": 0.8,
+    "target_coverage": 0.8,
+    "isoforms": "all annotated NM_ isoforms",
+    "search_directions": "new-to-train and train-to-new"
+  },
+  "expected_runs": [
+    "primer3_design_80-200_external_test_seed20261013",
+    "qprimer_design_80-200_external_test_seed20261013",
+    "primercast_design_80-200_external_test_seed20261013",
+    "attention_hybrid_diffusion_external_test_amp80-200_seed20261013",
+    "attention_hybrid_direct_external_test_amp80-200_seed20261013",
+    "cnn_diffusion_external_test_amp80-200_seed20261013",
+    "cnn_direct_external_test_amp80-200_seed20261013",
+    "attention_rope_diffusion_external_test_amp80-200_seed20261013"
+  ],
+  "evaluation_directories": [
+    "experiments/attention_external/results/evaluations"
+  ],
+  "primary_methods": {
+    "diffusion": "attention_hybrid_diffusion",
+    "direct": "attention_hybrid_direct"
+  },
+  "evaluation_declared_at": "2026-10-13T09:00:47.845913+00:00"
+}

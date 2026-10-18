@@ -1,0 +1,58 @@
+{
+  "declared_at": "2026-10-13T08:49:06.363146+00:00",
+  "seed": 20261013,
+  "architecture": {
+    "type": "conditional_hybrid_transformer",
+    "width": 96,
+    "layers": 4,
+    "attention_layers": 2,
+    "heads": 4,
+    "ff_mult": 2,
+    "position_encoding": "rotary",
+    "conditioning": "DNA/noisy-label embeddings + per-block FiLM design/time conditioning"
+  },
+  "training": {
+    "epochs": 30,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "window_length": 512,
+    "best_checkpoint": "minimum frozen validation masked-CE",
+    "fixed_side_augmentation": 0.25
+  },
+  "sampling": {
+    "steps": 16,
+    "temperature": 4,
+    "budget": 20,
+    "decoder": "same joint-Tm and anchor-prefilter support as final CNN analysis"
+  },
+  "expected_runs": [
+    "hybrid_attention_diffusion_validation_design_full_amp80-200_steps16_seed20261013",
+    "hybrid_attention_diffusion_test_design_full_amp80-200_steps16_seed20261013",
+    "hybrid_attention_diffusion_test_design_full_amp80-120_steps16_seed20261013",
+    "hybrid_attention_diffusion_test_design_full_amp121-160_steps16_seed20261013",
+    "hybrid_attention_diffusion_test_design_full_amp161-200_steps16_seed20261013",
+    "hybrid_attention_diffusion_test_completion_forward_amp80-200_steps16_seed20261013",
+    "hybrid_attention_diffusion_test_completion_reverse_amp80-200_steps16_seed20261013",
+    "hybrid_attention_diffusion_test_redesign_forward_amp80-200_steps16_seed20261013",
+    "hybrid_attention_diffusion_test_redesign_reverse_amp80-200_steps16_seed20261013",
+    "hybrid_attention_direct_validation_design_full_amp80-200_steps16_seed20261013",
+    "hybrid_attention_direct_test_design_full_amp80-200_steps16_seed20261013",
+    "hybrid_attention_direct_test_design_full_amp80-120_steps16_seed20261013",
+    "hybrid_attention_direct_test_design_full_amp121-160_steps16_seed20261013",
+    "hybrid_attention_direct_test_design_full_amp161-200_steps16_seed20261013",
+    "hybrid_attention_direct_test_completion_forward_amp80-200_steps16_seed20261013",
+    "hybrid_attention_direct_test_completion_reverse_amp80-200_steps16_seed20261013",
+    "hybrid_attention_direct_test_redesign_forward_amp80-200_steps16_seed20261013",
+    "hybrid_attention_direct_test_redesign_reverse_amp80-200_steps16_seed20261013",
+    "hybrid_attention_diffusion_test_design_full_amp80-200_steps1_seed20261013",
+    "hybrid_attention_diffusion_test_design_full_amp80-200_steps4_seed20261013",
+    "hybrid_attention_diffusion_test_design_full_amp80-200_steps8_seed20261013",
+    "hybrid_attention_diffusion_test_ablation_single_oligo_amp80-200_steps16_seed20261013"
+  ],
+  "additional_baseline": "external comparisons use the completed attention qPrimer/PrimerCast runs",
+  "dataset_sha256": "ef76fda8a01abcbf47f098858da2a33a64fa24fe4db3b037fab355bab5f73296",
+  "target_sha256": "feba10ee675e2f4cc1300862bb845a02d17f0d604eb9b8a0c13154f2343e6dda",
+  "original_results": "results/final_fixed_seed/study_summary.json",
+  "comparison": "All actual outputs retained; shared full-reference screens and gene-level endpoints; one training/generation seed as user requested"
+}

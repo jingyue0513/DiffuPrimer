@@ -1,0 +1,14 @@
+# Environment used for submission verification; GPU runtime variants may differ.
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+biopython==1.88
+primer3-py==2.3.1
+requests==2.32.5
+beautifulsoup4==4.15.0
+lxml==6.1.3
+matplotlib==3.10.9
+torch==2.7.1+cu128
+PyYAML==6.0.3
+pytest==9.1.1
+pypdf==6.21.1

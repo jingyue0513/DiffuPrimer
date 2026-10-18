@@ -1,0 +1,11 @@
+{
+  "targets": 75,
+  "gene_ID_overlap_with_original_500": 0,
+  "gene_ID_overlap_with_original_training": 0,
+  "selected_training_homology_edges": 0,
+  "all_selected_isoforms_available": true,
+  "all_templates_follow_lexicographic_rule": true,
+  "all_reference_hashes_match_official_verified_snapshot": true,
+  "primer_feasibility_or_model_outputs_used_in_selection": false,
+  "model_evaluation_performed": false
+}

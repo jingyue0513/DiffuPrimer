@@ -1,0 +1,19 @@
+{
+  "platform": "Linux-5.15.0-105-generic-x86_64-with-glibc2.35",
+  "logical_cpus_available": 192,
+  "inference_device": "CPU",
+  "torch_intraop_threads": 4,
+  "torch_interop_threads": 1,
+  "generation_numpy_blas_threads": 1,
+  "CPU_budget_clock": "time.process_time",
+  "new_random_seed": 42,
+  "plot_dependency_repair": [
+    "packaging==26.3",
+    "pillow==12.3.0",
+    "pyparsing==3.3.3",
+    "fonttools==4.65.0",
+    "matplotlib==3.10.9",
+    "python-dateutil==2.9.0.post0"
+  ],
+  "cpu_model": "INTEL(R) XEON(R) PLATINUM 8558"
+}

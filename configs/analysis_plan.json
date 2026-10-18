@@ -1,0 +1,29 @@
+{
+  "version": "pilot-v1",
+  "title": "Conditional Discrete Diffusion for Diverse, Constraint-Aware qPCR Primer-Pair Design",
+  "scope": "Mouse gene-level transcript primer-pair design; no clinical or pathogen claims",
+  "evidence_regime": "Unverified database-position imitation is a weak pilot and is reported separately from high-confidence experimental supervision",
+  "candidate_budget": 20,
+  "no_invalid_or_duplicate_replacement": true,
+  "seeds": [20261013, 20261014, 20261015],
+  "primary_conditions": {"amplicon_min": 80, "amplicon_max": 200},
+  "condition_bands": [[80, 120], [121, 160], [161, 200]],
+  "methods": ["Primer3", "direct CNN with grammar and single-oligo guidance", "discrete diffusion CNN with grammar and single-oligo guidance", "uniform F-then-R rule sampler with identical single-oligo guidance"],
+  "ablations": ["diffusion without oligo guidance", "diffusion without grammar decoder", "diffusion one-step denoising", "fixed forward primer", "fixed reverse primer"],
+  "primary_computational_endpoints": ["fraction of held-out genes with >=2 distinct feasible gene-specific primer sequence pairs", "mean unique feasible gene-specific pair count per gene"],
+  "secondary_endpoints": ["geometry validity", "feasibility per fixed proposal budget", "target coverage", "temperature penalty among jointly covered genes", "amplicon overlap diversity", "runtime", "possible genomic DNA products"],
+  "specificity_tier": "limited BLAST+ hit rule, reported with its mismatch and coverage restrictions; independent Primer-BLAST review remains a separate check",
+  "bootstrap_repeats": 10000,
+  "statistical_unit": "gene, paired across methods; same-gene candidates and seeds are not independent biological replicates",
+  "test_policy": "Freeze the protocol and source hashes before first full test evaluation. All 75 frozen test genes remain in the denominator, including database-missing or no-design genes. Hyperparameter selection uses validation only.",
+  "prospective_experiment": {
+    "target_count": 40,
+    "target_selection": "Random subset of the frozen test genes selected independently of model feasibility; all model training excludes them",
+    "primary_methods": ["Primer3", "diffusion"],
+    "ranked_pairs_per_method": 2,
+    "technical_replicates": 3,
+    "status": "Not conducted; laboratory resources, materials, and raw data pending",
+    "success_criteria_status": "Must be fixed with the laboratory before candidate unblinding; no outcome-dependent thresholds"
+  },
+  "conclusion_policy": "Report all comparisons including negative outcomes. Never infer experimental success from a source link, thermodynamic pass, BLAST screen, or diffusion loss. Do not claim superiority or first use without evidence."
+}

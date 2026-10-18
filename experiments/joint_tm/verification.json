@@ -1,0 +1,8 @@
+{
+  "verified_at": "2026-10-12T18:28:16.087562+00:00",
+  "tests_passed": 23,
+  "correct_package_checks_sha256": "a700af95bcb38ef1a24cac6edb4bbd524bc257dfe6af5789b8fd31a9236c5cc0",
+  "implemented_protocol_sha256": "cb2ab31e7a04855894fb227495077494a067c68d578f404dbac6458dbd6302bd",
+  "initial_check_error": "Pytest inherited the main-project pythonpath; corrected with explicit variant pythonpath before running any variant design experiment",
+  "run_driver_sha256": "03b9476f0a20f7172b4014fd0e6559be01f037bd5339f3614795b6c8896342af"
+}

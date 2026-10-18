@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffuprimer"
+version = "0.1.0"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "Jingyue Li", email = "lijingyue513@163.com"}, {name = "Shiyue Mei", email = "18837614038@163.com"}]
+description = "Reproducible conditional discrete diffusion research for qPCR primer-pair design"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pandas", "biopython", "primer3-py", "requests", "beautifulsoup4", "lxml", "matplotlib", "torch", "pyyaml"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[project.urls]
+Repository = "https://github.com/jingyue0513/DiffuPrimer"

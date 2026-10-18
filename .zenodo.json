@@ -1,0 +1,13 @@
+{
+  "title": "DiffuPrimer: conditional discrete diffusion for primer-pair design",
+  "upload_type": "software",
+  "description": "Source code, two historical CNN checkpoints, frozen mouse-gene benchmark data, candidate and full-reference screening evidence, and reproduction scripts. Includes single-seed mechanism controls separating trained scores, frozen-score sampling and iterative network updates. Reference sequences and third-party tools retain their original terms. Manuscript preparation is ongoing; no journal publication is claimed.",
+  "creators": [
+    {"name":"Li, Jingyue","affiliation":"Sun Yat-sen University; Zhengzhou University; Henan Children's Hospital"},
+    {"name":"Mei, Shiyue","affiliation":"Zhengzhou University; Henan Children's Hospital"}
+  ],
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": ["qPCR", "primer design", "discrete diffusion", "reproducibility"],
+  "related_identifiers": [{"identifier":"https://github.com/jingyue0513/DiffuPrimer","relation":"isSupplementTo","scheme":"url"}]
+}

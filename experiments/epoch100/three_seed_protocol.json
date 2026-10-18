@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-10-12T22:16:34.325133+00:00",
+  "plan": {
+    "seeds": [
+      20261013,
+      20261014,
+      20261015
+    ],
+    "methods": [
+      "direct",
+      "diffusion"
+    ],
+    "epochs": 100,
+    "primary_epochs": 30,
+    "reused_completed_models": 2,
+    "checkpoint_selection": "Lowest validation objective within each fixed training trajectory",
+    "dataset_sha256": "ef76fda8a01abcbf47f098858da2a33a64fa24fe4db3b037fab355bab5f73296",
+    "split_sha256": "f7e6b737c1e4ce824cbfe38c4f8f0f101e0c293c7c0228fa39b006a48cebf0ec",
+    "training_script_sha256": "cc6da371c29e5809d5741505680d5fe1a0170bb0cec91dcc0992b8232dfbce3d",
+    "initial_protocol_sha256": "876241838456241278c9036dba7d38ba04f9bedf615defc8f3b49b17f7d8affd",
+    "primary_results_retained": true,
+    "test_outcomes_used_for_checkpoint_selection": false,
+    "concurrency": 2,
+    "threads_per_model": 8
+  }
+}

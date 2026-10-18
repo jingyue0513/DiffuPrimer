@@ -1,0 +1,38 @@
+{
+  "seed": 20261013,
+  "reference_assembly": "GCF_000001635.27",
+  "annotation": "GCF_000001635.27-RS_2024_02",
+  "species": "Mus musculus",
+  "pilot_genes": 500,
+  "split_fractions": [0.70, 0.15, 0.15],
+  "candidate_budget": 20,
+  "conditions": {
+    "primer_min_length": 18,
+    "primer_max_length": 25,
+    "amplicon_min": 80,
+    "amplicon_max": 200,
+    "tm_min": 57.0,
+    "tm_max": 63.0,
+    "tm_opt": 60.0,
+    "max_tm_difference": 2.0,
+    "gc_min": 35.0,
+    "gc_max": 65.0,
+    "max_homopolymer": 5,
+    "max_structure_tm": 47.0,
+    "monovalent_mM": 50.0,
+    "divalent_mM": 1.5,
+    "dntp_mM": 0.6,
+    "primer_nM": 50.0
+  },
+  "model": {
+    "window_length": 512,
+    "hidden_dim": 96,
+    "layers": 4,
+    "diffusion_steps": 16,
+    "batch_size": 16,
+    "epochs": 30,
+    "learning_rate": 0.001,
+    "cpu_threads": 8
+  },
+  "status": "pilot configuration; not a finalized assay specification"
+}

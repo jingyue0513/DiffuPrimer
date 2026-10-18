@@ -1,0 +1,59 @@
+{
+  "frozen_at": "2026-10-12T22:24:50.018075+00:00",
+  "plan": {
+    "directories": {
+      "validation": [
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/direct_weak_partial_pilot_validation_seed20261013_amp80-200_oligo_guided",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/diffusion_weak_partial_pilot_validation_seed20261013_amp80-200_oligo_guided",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/direct_weak_partial_pilot_validation_seed20261014_amp80-200_oligo_guided",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/diffusion_weak_partial_pilot_validation_seed20261014_amp80-200_oligo_guided",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/direct_weak_partial_pilot_validation_seed20261015_amp80-200_oligo_guided",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/diffusion_weak_partial_pilot_validation_seed20261015_amp80-200_oligo_guided"
+      ],
+      "test": [
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/direct_weak_partial_pilot_test_seed20261013_amp80-200_oligo_guided",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/diffusion_weak_partial_pilot_test_seed20261013_amp80-200_oligo_guided",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/direct_weak_partial_pilot_test_seed20261014_amp80-200_oligo_guided",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/diffusion_weak_partial_pilot_test_seed20261014_amp80-200_oligo_guided",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/direct_weak_partial_pilot_test_seed20261015_amp80-200_oligo_guided",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/epoch100/results/evaluations/diffusion_weak_partial_pilot_test_seed20261015_amp80-200_oligo_guided"
+      ]
+    },
+    "seeds": [
+      20261013,
+      20261014,
+      20261015
+    ],
+    "budget": 20,
+    "conditions": {
+      "primer_min_length": 18,
+      "primer_max_length": 25,
+      "amplicon_min": 80,
+      "amplicon_max": 200,
+      "tm_min": 57.0,
+      "tm_max": 63.0,
+      "tm_opt": 60.0,
+      "max_tm_difference": 2.0,
+      "gc_min": 35.0,
+      "gc_max": 65.0,
+      "max_homopolymer": 5,
+      "max_structure_tm": 47.0,
+      "monovalent_mM": 50.0,
+      "divalent_mM": 1.5,
+      "dntp_mM": 0.6,
+      "primer_nM": 50.0
+    },
+    "sampling_temperature": 1.0,
+    "guidance": "Original single-oligo guidance in both duration groups",
+    "checkpoints": "Best validation-objective checkpoints from the declared 100-epoch trajectories",
+    "primary_results_retained": true,
+    "all_test_genes": 75,
+    "new_validation_sampling_runs": 4,
+    "new_test_sampling_runs": 6,
+    "split_sha256": "f7e6b737c1e4ce824cbfe38c4f8f0f101e0c293c7c0228fa39b006a48cebf0ec",
+    "training_protocol_sha256": "9290c058e8549a6e5bff48c0e28c34d27dae39583a863024a96d97969ce9a97f",
+    "evaluate_source_sha256": "73404a83703d77e8aaf808f8d675cbe1838046f5f9ebf34a02befa92ea4b7543",
+    "test_policy": "Run all six test evaluations regardless of the validation-duration effect; fixed model and decoding settings; no test-based retuning",
+    "audit_policy": "Reuse complete reference alignments; wait for the primary audit before becoming the only alignment-cache writer"
+  }
+}

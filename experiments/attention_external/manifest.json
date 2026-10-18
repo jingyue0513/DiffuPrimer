@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-10-13T08:51:14.255435+00:00",
+  "seed": 20261013,
+  "requested_genes": 75,
+  "selection_method": "Shuffle the full gene-ID-sorted official protein-coding NM_ catalog after excluding all original 500 gene IDs, then take the first eligible 75 genes in that random order",
+  "eligibility": "Complete official NM_ isoform sequence availability and no MMseqs2 >=80% identity, >=80% query coverage AND >=80% target coverage hit to an original training-gene isoform",
+  "template_rule": "Lexicographically first annotated NM_ accession version per gene, as in the original study",
+  "candidate_outcomes_consulted": false,
+  "model_evaluation_performed": false,
+  "original_selection_sha256": "30f4054afef27872827395f1acd4fd698549a344ff87704e08fe218789a4ba0d",
+  "original_split_sha256": "f7e6b737c1e4ce824cbfe38c4f8f0f101e0c293c7c0228fa39b006a48cebf0ec",
+  "reference_files": [
+    {
+      "name": "GCF_000001635.27_GRCm39_genomic.gff.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/635/GCF_000001635.27_GRCm39/GCF_000001635.27_GRCm39_genomic.gff.gz",
+      "md5": "f0bc4339da97f2301929d2028bbb35ce",
+      "sha256": "03c37a43729593acafc4dd5092e075155ba2944fd63d5267e09b917d917b0cf9",
+      "bytes": 43813395
+    },
+    {
+      "name": "GCF_000001635.27_GRCm39_rna.fna.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/635/GCF_000001635.27_GRCm39/GCF_000001635.27_GRCm39_rna.fna.gz",
+      "md5": "232bb68742e56492ce7b0f22b63800cd",
+      "sha256": "eb8f27faafe4b15b5392583493a2601b2292fea502a602c1976ad97fbc24b29d",
+      "bytes": 108614296
+    }
+  ],
+  "current_reference_sha256": {
+    "GCF_000001635.27_GRCm39_genomic.gff.gz": "03c37a43729593acafc4dd5092e075155ba2944fd63d5267e09b917d917b0cf9",
+    "GCF_000001635.27_GRCm39_rna.fna.gz": "eb8f27faafe4b15b5392583493a2601b2292fea502a602c1976ad97fbc24b29d"
+  },
+  "catalog_genes": 21034,
+  "candidate_genes_after_original_ID_exclusion": 20534,
+  "original_genes": 500,
+  "original_training_genes": 350,
+  "homology_rule": {
+    "identity": 0.8,
+    "query_coverage": 0.8,
+    "target_coverage": 0.8,
+    "isoforms": "all annotated NM_ isoforms",
+    "search_directions": "new-to-train and train-to-new"
+  },
+  "completed_at": "2026-10-13T08:51:45.634343+00:00",
+  "status": "frozen_external_gene_cohort",
+  "targets_path": "/share/project/yenaisheng/DiffuPrimer/data/processed/attention_external_targets.jsonl",
+  "targets_sha256": "c1ea14d95321fd57f3b73928a45592f1e0f90a1018a78516f2f946cb5e638b47",
+  "selected_genes": 75,
+  "selected_all_isoforms": 169,
+  "selected_all_isoforms_sha256": "ee6180cd067609f7df085ff7c426ace8b91b8042e975da532c26a133e3dd8a8f",
+  "original_training_isoforms": 781,
+  "original_training_fasta_sha256": "2d047f1e1eaca81dac9ca15ff190552bad4924c6cd0f176582711ce0e5830de8",
+  "candidate_order_sha256": "3c34e716b8af1031fa18e34cace2c74d9e9853b7af74896652e4c430eda679f7",
+  "selection_ledger_sha256": "46a2d875748564931756f05d717bea978482943751c78e4608530839b12ed280",
+  "homology_edges_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "source_check": {
+    "targets": 75,
+    "gene_ID_overlap_with_original_500": 0,
+    "gene_ID_overlap_with_original_training": 0,
+    "selected_training_homology_edges": 0,
+    "all_selected_isoforms_available": true,
+    "all_templates_follow_lexicographic_rule": true,
+    "all_reference_hashes_match_official_verified_snapshot": true,
+    "primer_feasibility_or_model_outputs_used_in_selection": false,
+    "model_evaluation_performed": false
+  },
+  "mmseqs_version": "564f40d8857f4eca4e1dfe100c67c155b1933e70",
+  "mmseqs_sha256": "98cc37a85e51a891733d9e40dc2ae3d02fa7e02cbddaabb192c8f8e6fba8ad32",
+  "searches": [
+    {
+      "command": [
+        "/share/project/yenaisheng/DiffuPrimer/tools/mmseqs/bin/mmseqs",
+        "easy-search",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/attention_external/homology/batch_00000/new_all_isoforms.fasta",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/attention_external/original_training_all_isoforms.fasta",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/attention_external/homology/batch_00000/new_to_train.tsv",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/attention_external/homology/batch_00000/tmp_new_to_train",
+        "--search-type",
+        "3",
+        "--min-seq-id",
+        "0.8",
+        "-c",
+        "0.8",
+        "--cov-mode",
+        "0",
+        "--max-seqs",
+        "100000",
+        "--threads",
+        "8",
+        "--format-output",
+        "query,target,fident,alnlen,qcov,tcov"
+      ],
+      "hits_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/share/project/yenaisheng/DiffuPrimer/tools/mmseqs/bin/mmseqs",
+        "easy-search",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/attention_external/original_training_all_isoforms.fasta",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/attention_external/homology/batch_00000/new_all_isoforms.fasta",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/attention_external/homology/batch_00000/train_to_new.tsv",
+        "/share/project/yenaisheng/DiffuPrimer/experiments/attention_external/homology/batch_00000/tmp_train_to_new",
+        "--search-type",
+        "3",
+        "--min-seq-id",
+        "0.8",
+        "-c",
+        "0.8",
+        "--cov-mode",
+        "0",
+        "--max-seqs",
+        "100000",
+        "--threads",
+        "8",
+        "--format-output",
+        "query,target,fident,alnlen,qcov,tcov"
+      ],
+      "hits_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "prepare_script_sha256": "8e11cfb7785a5a1aa8915ba56ce88d0249b27ffe2c519df3de0d126f5a98a8f1",
+  "rejected_candidates": []
+}

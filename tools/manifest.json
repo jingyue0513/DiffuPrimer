@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-12T17:57:22.360406+00:00",
+  "mmseqs_source": "https://mmseqs.com/latest/mmseqs-linux-avx2.tar.gz",
+  "mmseqs_version": "564f40d8857f4eca4e1dfe100c67c155b1933e70",
+  "blast_source": "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.17.0+-x64-linux.tar.gz",
+  "blast_version": "2.17.0+",
+  "sha256": {
+    "tools/mmseqs/bin/mmseqs": "98cc37a85e51a891733d9e40dc2ae3d02fa7e02cbddaabb192c8f8e6fba8ad32",
+    "tools/ncbi-blast-2.17.0+/bin/blastn": "33b64bc67d3149cee2459b2f7766b363323df632cf12c099546de00aea9698b5",
+    "tools/ncbi-blast-2.17.0+/bin/makeblastdb": "c1ffdcf6f15d1d8d75377cc9f37afa42bc9fa06678903bad77c2641e60778fce"
+  }
+}

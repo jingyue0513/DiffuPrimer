@@ -1,0 +1,40 @@
+{
+  "frozen_at": "2026-10-12T18:27:25.810136+00:00",
+  "planned_protocol_sha256": "38be148e67833cccc1bd0cda67569e6440461004518fa591d178109b975f5389",
+  "sha256": {
+    "src/diffuprimer/__init__.py": "0715c31c0544f468c4b6f9014939bde7cd96b43d18fe8dabb7b0a926e2132d21",
+    "src/diffuprimer/acquisition.py": "bcac915fcfa4852504d46b673bee430cc79fdd213e5095a4cbf4620665ef27c6",
+    "src/diffuprimer/baselines.py": "666fffb90d70fda76e0fad4c0e2f1e558224ee89a7a6dec7640a939f297762b1",
+    "src/diffuprimer/constraints.py": "8ea050c4d85a99a3f76d671a4b6b6e037875fbdaaa6c40c58c1bd519f30b2674",
+    "src/diffuprimer/decode.py": "46ec85d58cc002fc6935d744ddb9ca1794f44eef8fba2a5e1c14accbe4bd5ee5",
+    "src/diffuprimer/guidance.py": "5af43da326b3331f40d9812eb26d17a63118ce487f1f9ea78b9fde7c2c355929",
+    "src/diffuprimer/io.py": "dea99cc192596213c404f6416341c96c7c343e270bee2778185537135653b14e",
+    "src/diffuprimer/metrics.py": "4c9a55874458fc9ec0be722412afb5418727aea487900c4bf766910399190b94",
+    "src/diffuprimer/model.py": "78a77fe3b055f5eefc40d9ef45b132c280a091f281b11124a58c6835a96d6e42",
+    "src/diffuprimer/sampling.py": "7ccb2a57a3a2dce1c41536d0947e9f164b05e2182182ab65e13fa3972641d395",
+    "src/diffuprimer/sequence.py": "3151a08d90775aaff1afe5049adbb4b68fe5c583dc5454a9c14a4cb3dff12a1b",
+    "src/diffuprimer/specificity.py": "61070ea1db3f329cea966c02e3579e7ed2689b687701c20df8bd19daa0c27aeb",
+    "src/diffuprimer/splits.py": "457356e163b85cd7033ca1b5696977abcc529a4e4b799b7ebd770946a92bf65d",
+    "src/diffuprimer/training.py": "16ab6335d7597c89efb10a1d9695e6011d0e063e1f939ba0dfe292391664d999",
+    "scripts/evaluate.py": "b00531e35689181a3dff067bf2cf3ed5f4badbb2aeaccf2ab0121d6840b98999",
+    "tests/test_acquisition.py": "ebfaaa217b3c235393e36d2166f35cc5d926687f6e66759aa11cd0e9cac0a952",
+    "tests/test_baselines.py": "42c8ab53b7db54467345ae0c23020613223aea86d6e0739fe7e1aa6ff1aeb8f7",
+    "tests/test_decode.py": "b34d1a0814a47b6dc35c9e612f6c68ec244d7b97230f155bd3f61c3803d3df72",
+    "tests/test_diffusion.py": "47ad35d334804e50b9719c4be7731bc4b6d2aa1497542b4654be52072752dd1a",
+    "tests/test_joint_tm.py": "c9c971d32c4f9f8c09a5815ec0c33e6b50c932a75055df71cf6d23060cb5b641",
+    "tests/test_metrics.py": "ba78822290e7f10f293cd48875d750eef55e4f1007471d233d85606dc14805c7",
+    "tests/test_sampling.py": "2fb37e956c83260a393fa2270a9cd3a196bc281b0412aafca1e3910ca5b6bfb4",
+    "tests/test_sequence.py": "2431cc8f67022113dfa510d2e7ebd1dccf0e86b24093d9cb22954de64af2e0ce",
+    "tests/test_specificity.py": "dddbf9cb47053d2c6d6647ae5826d824e861d81d7cba04789260916768f139a0",
+    "tests/test_splits.py": "b41f19cad2a79138ae819412c4e46f854d6c4691dfb972b923be360ef79a7681"
+  },
+  "trained_checkpoints": {
+    "diffusion_weak_partial_pilot_seed20261013.pt": "677bb87ac0cb7fa0534197c0f0c9e8dbd267eb1e22b10d9ee29e62afab05d2e4",
+    "diffusion_weak_partial_pilot_seed20261014.pt": "a33bf74fc68c5b5809d1aba89f3aa5502972af1c6bcbad92ed3b902c541fb41c",
+    "diffusion_weak_partial_pilot_seed20261015.pt": "1d3c534a001678f3a2e0380c66ff666e4be339d38b5dcbdf0b12dfbcbad0988f",
+    "direct_weak_partial_pilot_seed20261013.pt": "3ac99229e93423fc592c9070a2a998ad7dda818ca5c4255db4a15e2924b79f28",
+    "direct_weak_partial_pilot_seed20261014.pt": "4f00f354d967fb6a1be788f8bc6008c622cad7f153a6f9e37511cb6a5918bd96",
+    "direct_weak_partial_pilot_seed20261015.pt": "d452b1f4a3cc8ebba76d992738be31b45a280dc39e1c86d5199225073d00aa60"
+  },
+  "checks_log_sha256": "67f12b8cefa107b51ac22f694b510aff0bd6449e34c12537780db5034c9a4c1f"
+}

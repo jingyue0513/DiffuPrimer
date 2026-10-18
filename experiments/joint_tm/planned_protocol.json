@@ -1,0 +1,27 @@
+{
+  "planned_at": "2026-10-12T18:25:40.202925+00:00",
+  "question": "Does joint Tm compatibility explain the feasibility gap, and how does denoising affect uniqueness once this rule is shared?",
+  "diagnostic_basis": "Complete seed-20261013 validation set: Tm-difference failures dominate diffusion infeasibility",
+  "change": "Filter compatible reverse spans by abs(forward_Tm - reverse_Tm) <= max_tm_difference before pair proposal; apply identical pair constraint to direct and rule controls",
+  "unchanged": [
+    "trained checkpoints",
+    "gene split",
+    "K=20",
+    "oligo constraints",
+    "post-proposal heterodimer assessment"
+  ],
+  "methods": [
+    "primer3",
+    "direct",
+    "diffusion",
+    "rule_sampler"
+  ],
+  "seeds": [
+    20261013,
+    20261014,
+    20261015
+  ],
+  "initial_evaluation": "All 75 validation genes; follow-up based on candidate count, diversity and repeatability",
+  "primary_results_retained": true,
+  "source_protocol_sha256": "1618f0f245012cee26ca85ed63dbcd1fdfd2118ee103f6d9c86782d10811b683"
+}

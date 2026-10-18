@@ -1,0 +1,15 @@
+{
+  "validation_genes": 2,
+  "methods": 11,
+  "full_reference_screen_and_analysis_passed": true,
+  "resumed_candidate_files_byte_identical": true,
+  "screen_verification": {
+    "passed": true,
+    "runs": 11,
+    "gene_method_records": 22,
+    "screen_identity_sha256": "2a014f23e69ecff5e1b1782db74d6119788560305e5bbd5c41085bfaef3ad644",
+    "all_candidates_screened": true,
+    "timed_output_deadlines_respected": true,
+    "summary_sha256": "433b6c56a931deebcecd097878d15774ecc74651d4d5e4a0e1842d5f4ae08d0b"
+  }
+}
