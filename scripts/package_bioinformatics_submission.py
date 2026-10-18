@@ -27,14 +27,16 @@ def main():
             files.append(PAPER/(name if Path(name).suffix else name+'.tex'))
         for name in re.findall(r'\\includegraphics(?:\[[^]]*\])?\{([^}]+)\}',text):files.append(PAPER/name)
         if stem=='manuscript':files += [PAPER/'manuscript.bbl',PAPER/'oup-abbrvnat.bst',PAPER/'submission_references.bib',PAPER/'references.bib']
-        files += [PAPER/'source_manifest.json',PAPER/'verification.json']
+        files += [PAPER/'source_manifest.json',PAPER/'verification.json',PAPER/'reference_verification.json']
         zip_files(upload/f'{stem}_source.zip',files,PAPER)
     zip_files(upload/'supplementary_data.zip',[PAPER/'mechanism_evidence.json',PAPER/'mechanism_results.csv'],PAPER)
-    commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
+    commit=subprocess.check_output(['git','rev-parse','v0.1.0^{}'],cwd=ROOT,text=True).strip()
     subprocess.run(['git','archive','--format=zip','--output',str(OUT/'software_archive.zip'),commit],cwd=ROOT,check=True)
     subprocess.run(['git','bundle','create',str(OUT/'DiffuPrimer.git.bundle'),'--all'],cwd=ROOT,check=True)
     abstract=(PAPER/'manuscript.tex').read_text().split('\\abstract{',1)[1].split('\\keywords',1)[0]
-    abstract=re.sub(r'\\href\{[^}]+\}\{([^}]+)\}',r'\1',abstract)
+    macros=dict(re.findall(r'\\newcommand\{\\(\w+)\}\{([^}]+)\}',(PAPER/'result_values.tex').read_text()))
+    for key,value in macros.items():abstract=abstract.replace('\\'+key+'{}',value)
+    abstract=re.sub(r'\\href\{([^}]+)\}\{([^}]+)\}',lambda m:m[2] if m[1].startswith('mailto:') else m[2]+' ('+m[1]+')',abstract)
     abstract=re.sub(r'\\url\{([^}]+)\}',r'\1',abstract)
     abstract=re.sub(r'\\textbf\{([^}]+)\}',r'\1',abstract)
     abstract=abstract.replace('\\\\','\n').rstrip('}\n')

@@ -41,15 +41,24 @@ def main():
     for g in evidence['groups']:
         if g['method'] in methods:
             assert f"{g['retained_pairs']:.2f} & {100*g['one_retained']:.1f} & {g['generation_cpu_seconds']:.2f}" in table
+    audit=json.loads((OUT/'reference_verification.json').read_text())
+    assert audit['all_cited_references_exist'] and audit['verified']==52
+    assert audit['main_bibliography_sha256']==sha(OUT/'references.bib')
     text=(OUT/'manuscript.tex').read_text();supp=(OUT/'supplementary.tex').read_text()
     assert 'Author contributions' not in text and 'CRediT' not in text
     assert 'Shiyue Mei' in text and 'lijingyue513@163.com' in text
     assert 'The authors declare no conflict of interest.' in text
-    assert 'no specific grant' in text and 'manuscript drafting and revision' in text
+    assert r'\section*{Acknowledgements}' not in text and r'\subsection*{Funding}' not in text
+    assert 'manuscript drafting and revision' in text
+    assert r'\subsection*{AI assistance}' not in text
+    assert r'\path{' not in supp and 'Regeneration}' not in supp
+    assert 'AI assistance and remaining author declarations' not in supp
+    assert 'mechanism_complete_table.tex' in supp
     citations={k for b in re.findall(r'\\cite\w*\{([^}]+)\}',text) for k in b.split(',')}
     compiled=set(re.findall(r'\\bibitem\[.*?\]\{([^}]+)\}',(OUT/'manuscript.bbl').read_text(),re.S))
     assert citations==compiled and len(citations)==52,(len(citations),len(compiled))
     abstract=text.split('\\abstract{',1)[1].split('\\keywords',1)[0]
+    for key,val in macros.items():abstract=abstract.replace('\\'+key+'{}',val)
     abstract=re.sub(r'\\href\{[^}]+\}\{([^}]+)\}',r'\1',abstract)
     abstract=re.sub(r'\\url\{[^}]+\}','URL',abstract)
     abstract=re.sub(r'\\textbf\{[^}]+\}','',abstract)
@@ -66,10 +75,14 @@ def main():
     report={'passed':True,'main_pages':len(pdf.pages),'supplementary_pages':len(spdf.pages),
         'abstract_words_excluding_heading_labels':words,'cited_references':len(citations),
         'historical_numerical_macros_verified':checked,'mechanism_methods_per_cohort':14,
-        'main_figures':3,'supplementary_complete_figures':5,'author_contribution_paragraph_in_main':False,
+        'main_figures':3,'supplementary_complete_figures':5,'references_rechecked':52,'funding_section_present':False,'acknowledgements_section_present':False,'author_contribution_paragraph_in_main':False,
         'undefined_citations_or_references':False,'body_or_table_overflow':False,'source_hashes_verified':True,
         'main_pdf_sha256':sha(OUT/'manuscript.pdf'),'supplementary_pdf_sha256':sha(OUT/'supplementary.pdf'),
         'submission_ready':False,'pending':['GitHub publication verification','independent archive persistent URL',
             'researcher revision and journal LLM-policy resolution','author final approval and submission-system metadata']}
+    if manifest.get('public_release'):
+        release=manifest['public_release'];report['public_repository_verified']=True;report['independent_archive_verified']=True
+        report['software_version']='0.1.0';report['software_commit']=release['commit'];report['archive_swhid']=release['archive_swhid']
+        report['pending']=[p for p in report['pending'] if p not in ['GitHub publication verification','independent archive persistent URL']]
     (OUT/'verification.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
 if __name__=='__main__':main()

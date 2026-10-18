@@ -1,0 +1,6417 @@
+{
+  "checked_at": "2026-10-18T08:36:22.423278+00:00",
+  "cited_entries": 52,
+  "records": [
+    {
+      "key": "miqe",
+      "title": "{The MIQE Guidelines: Minimum Information for Publication of Quantitative Real-Time PCR Experiments}",
+      "doi": "10.1373/clinchem.2008.112797",
+      "year": "2009",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1373%2Fclinchem.2008.112797",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "The MIQE Guidelines: Minimum Information for Publication of Quantitative Real-Time PCR Experiments",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Stephen A",
+          "family": "Bustin",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Centre for Academic Surgery, Institute of Cell and Molecular Science, Barts and the London School of Medicine and Dentistry, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vladimir",
+          "family": "Benes",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Genomics Core Facility, EMBL Heidelberg, Heidelberg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jeremy A",
+          "family": "Garson",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Centre for Virology, Department of Infection, University College London, London, UK"
+            },
+            {
+              "name": "Department of Virology, UCL Hospitals NHS Foundation Trust, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jan",
+          "family": "Hellemans",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Center for Medical Genetics, Ghent University Hospital, Ghent, Belgium"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jim",
+          "family": "Huggett",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Centre for Infectious Diseases, University College London, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mikael",
+          "family": "Kubista",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "TATAA Biocenter, Göteborg, Sweden"
+            },
+            {
+              "name": "Institute of Biotechnology AS CR, Prague, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Reinhold",
+          "family": "Mueller",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Sequenom, San Diego, California, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tania",
+          "family": "Nolan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Sigma–Aldrich, Haverhill, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael W",
+          "family": "Pfaffl",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Physiology Weihenstephan, Technical University Munich, Freising, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gregory L",
+          "family": "Shipley",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Quantitative Genomics Core Laboratory, Department of Integrative Biology and Pharmacology, University of Texas Health Science Center, Houston, Texas, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jo",
+          "family": "Vandesompele",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Center for Medical Genetics, Ghent University Hospital, Ghent, Belgium"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carl T",
+          "family": "Wittwer",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, University of Utah, Salt Lake City, Utah, USA"
+            },
+            {
+              "name": "ARUP Institute for Clinical and Experimental Pathology, Salt Lake City, Utah, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Clinical Chemistry"
+      ],
+      "registered_years": [
+        2009
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "miqe2",
+      "title": "{MIQE 2.0: Revision of the Minimum Information for Publication of Quantitative Real-Time PCR Experiments Guidelines}",
+      "doi": "10.1093/clinchem/hvaf043",
+      "year": "2025",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fclinchem%2Fhvaf043",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "MIQE 2.0: Revision of the Minimum Information for Publication of Quantitative Real-Time PCR Experiments Guidelines",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1870-6098",
+          "authenticated-orcid": false,
+          "given": "Stephen A",
+          "family": "Bustin",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Medical Technology Research Centre, Faculty of Health, Education, Medicine & Social Care, Anglia Ruskin University , Chelmsford, Essex ,",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jan M",
+          "family": "Ruijter",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department Medical Biology, AmsterdamUMC, Location AMC , Amsterdam ,",
+              "place": [
+                "the Netherlands"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maurice J B",
+          "family": "van den Hoff",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department Medical Biology, AmsterdamUMC, Location AMC , Amsterdam ,",
+              "place": [
+                "the Netherlands"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mikael",
+          "family": "Kubista",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Precision BioAnalytics AB, Institute of Biotechnology of the Czech Academy of Sciences , Vestec ,",
+              "place": [
+                "Czech Republic"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael W",
+          "family": "Pfaffl",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Animal Physiology & Immunology, School of Life Sciences, Technical University of Munich , Munich ,",
+              "place": [
+                "Germany"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gregory L",
+          "family": "Shipley",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Shipley Consulting , Vancouver, WA ,",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nham",
+          "family": "Tran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Biomedical Engineering, University of Technology, Sydney ,",
+              "place": [
+                "Australia"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stefan",
+          "family": "Rödiger",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brandenburg University of Technology Cottbus—Senftenberg , Senfterberg ,",
+              "place": [
+                "Germany"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Untergasser",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zentrum für Molekulare Biologie, University of Heidelberg , Heidelberg ,",
+              "place": [
+                "Germany"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Reinhold",
+          "family": "Mueller",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "RM Consulting , San Diego, CA ,",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tania",
+          "family": "Nolan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The GeneTeam , Bury St. Edmunds, Suffolk ,",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mojca",
+          "family": "Milavec",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biotechnology and Systems Biology, National Institute of Biology , Ljubljana ,",
+              "place": [
+                "Slovenia"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Malcolm J",
+          "family": "Burns",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biological Metrology, National Measurement Laboratory (NML), LGC , Teddington, Middlesex ,",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0945-1911",
+          "authenticated-orcid": false,
+          "given": "Jim F",
+          "family": "Huggett",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biological Metrology, National Measurement Laboratory (NML), LGC , Teddington, Middlesex ,",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6274-0184",
+          "authenticated-orcid": false,
+          "given": "Jo",
+          "family": "Vandesompele",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomolecular Medicine, Ghent University , Ghent ,",
+              "place": [
+                "Belgium"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carl T",
+          "family": "Wittwer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Crestwood Technology , Camden, ME ,",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Clinical Chemistry"
+      ],
+      "registered_years": [
+        2025
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "primer3original",
+      "title": "{Primer3 on the WWW for General Users and for Biologist Programmers}",
+      "doi": "10.1385/1-59259-192-2:365",
+      "year": "2000",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1385%2F1-59259-192-2%3A365",
+          "http_status": 200
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10547847/",
+          "evidence": "PubMed explicitly reports 2000;132:365-386 and the same DOI/authors. Crossref year is missing."
+        }
+      ],
+      "registered_title": "Primer3 on the WWW for General Users and for Biologist Programmers",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Steve",
+          "family": "Rozen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Helen",
+          "family": "Skaletsky",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Bioinformatics Methods and Protocols"
+      ],
+      "registered_years": [
+        2000
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "primer3",
+      "title": "{Primer3---new capabilities and interfaces}",
+      "doi": "10.1093/nar/gks596",
+      "year": "2012",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgks596",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Primer3—new capabilities and interfaces",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Andreas",
+          "family": "Untergasser",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ioana",
+          "family": "Cutcutache",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Triinu",
+          "family": "Koressaar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jian",
+          "family": "Ye",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brant C.",
+          "family": "Faircloth",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maido",
+          "family": "Remm",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Steven G.",
+          "family": "Rozen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nucleic Acids Research"
+      ],
+      "registered_years": [
+        2012
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "primerblast",
+      "title": "{Primer-BLAST: A tool to design target-specific primers for polymerase chain reaction}",
+      "doi": "10.1186/1471-2105-13-134",
+      "year": "2012",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1186%2F1471-2105-13-134",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Primer-BLAST: A tool to design target-specific primers for polymerase chain reaction",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Jian",
+          "family": "Ye",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "George",
+          "family": "Coulouris",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Irena",
+          "family": "Zaretskaya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ioana",
+          "family": "Cutcutache",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Steve",
+          "family": "Rozen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas L",
+          "family": "Madden",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "BMC Bioinformatics"
+      ],
+      "registered_years": [
+        2012
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "primerbank",
+      "title": "{PrimerBank: a resource of human and mouse PCR primer pairs for gene expression detection and quantification}",
+      "doi": "10.1093/nar/gkp1005",
+      "year": "2010",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkp1005",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "PrimerBank: a resource of human and mouse PCR primer pairs for gene expression detection and quantification",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Athanasia",
+          "family": "Spandidos",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaowei",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Huajun",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brian",
+          "family": "Seed",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nucleic Acids Research"
+      ],
+      "registered_years": [
+        2009,
+        2010
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "qprimerdb",
+      "title": "{qPrimerDB: a thermodynamics-based gene-specific qPCR primer database for 147 organisms}",
+      "doi": "10.1093/nar/gkx725",
+      "year": "2018",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkx725",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "qPrimerDB: a thermodynamics-based gene-specific qPCR primer database for 147 organisms",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1370-8633",
+          "authenticated-orcid": false,
+          "given": "Kun",
+          "family": "Lu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tian",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jian",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Chang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rui",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Miao",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mengna",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yonghai",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jinqi",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cunmin",
+          "family": "Qu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Liezhao",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nannan",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ying",
+          "family": "Liang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rui",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Qian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhanglin",
+          "family": "Tang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinfu",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bo",
+          "family": "Lei",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kai",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiana",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nucleic Acids Research"
+      ],
+      "registered_years": [
+        2017,
+        2018
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "qprimer",
+      "title": "{qPrimerDB 2.0: an updated comprehensive gene-specific qPCR primer database for 1172 organisms}",
+      "doi": "10.1093/nar/gkae684",
+      "year": "2025",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkae684",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "qPrimerDB 2.0: an updated comprehensive gene-specific qPCR primer database for 1172 organisms",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "ORCID": "https://orcid.org/0009-0007-9666-7967",
+          "authenticated-orcid": false,
+          "given": "Xiaodong",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Integrative Science Center of Germplasm Creation in Western China (CHONGQING) Science City, College of Agronomy and Biotechnology, Southwest University , Beibei , Chongqing  400715 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Boyu",
+          "family": "Meng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Integrative Science Center of Germplasm Creation in Western China (CHONGQING) Science City, College of Agronomy and Biotechnology, Southwest University , Beibei , Chongqing  400715 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhi",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Resource Insects, Southwest University , Chongqing  400715 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lijuan",
+          "family": "Wei",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Integrative Science Center of Germplasm Creation in Western China (CHONGQING) Science City, College of Agronomy and Biotechnology, Southwest University , Beibei , Chongqing  400715 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Chang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Integrative Science Center of Germplasm Creation in Western China (CHONGQING) Science City, College of Agronomy and Biotechnology, Southwest University , Beibei , Chongqing  400715 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuhong",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Integrative Science Center of Germplasm Creation in Western China (CHONGQING) Science City, College of Agronomy and Biotechnology, Southwest University , Beibei , Chongqing  400715 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5014-9183",
+          "authenticated-orcid": false,
+          "given": "Kai",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Integrative Science Center of Germplasm Creation in Western China (CHONGQING) Science City, College of Agronomy and Biotechnology, Southwest University , Beibei , Chongqing  400715 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tian",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Resource Insects, Southwest University , Chongqing  400715 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1370-8633",
+          "authenticated-orcid": false,
+          "given": "Kun",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Integrative Science Center of Germplasm Creation in Western China (CHONGQING) Science City, College of Agronomy and Biotechnology, Southwest University , Beibei , Chongqing  400715 ,",
+              "place": [
+                "China"
+              ]
+            },
+            {
+              "name": "Engineering Research Center of South Upland Agriculture, Ministry of Education , Chongqing  400715 ,",
+              "place": [
+                "China"
+              ]
+            },
+            {
+              "name": "Academy of Agricultural Sciences, Southwest University , Beibei , Chongqing  400715 ,",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nucleic Acids Research"
+      ],
+      "registered_years": [
+        2024,
+        2025
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "varvamp",
+      "title": "{varVAMP: degenerate primer design for tiled full genome sequencing and qPCR}",
+      "doi": "10.1038/s41467-025-60175-9",
+      "year": "2025",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1038%2Fs41467-025-60175-9",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "varVAMP: degenerate primer design for tiled full genome sequencing and qPCR",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1974-212X",
+          "authenticated-orcid": false,
+          "given": "Jonas",
+          "family": "Fuchs",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Johanna",
+          "family": "Kleine",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3782-8226",
+          "authenticated-orcid": false,
+          "given": "Mathias",
+          "family": "Schemmerer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9113-4140",
+          "authenticated-orcid": false,
+          "given": "Julian",
+          "family": "Kreibich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wolfgang",
+          "family": "Maier",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Namuun",
+          "family": "Battur",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5525-1849",
+          "authenticated-orcid": false,
+          "given": "Thomas",
+          "family": "Krannich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-4964-4468",
+          "authenticated-orcid": false,
+          "given": "Somayyeh",
+          "family": "Sedaghatjoo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9732-181X",
+          "authenticated-orcid": false,
+          "given": "Lena",
+          "family": "Jaki",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anastasija",
+          "family": "Maks",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christina",
+          "family": "Boehm",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-7642-1358",
+          "authenticated-orcid": false,
+          "given": "Carina",
+          "family": "Wilhelm",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jessica",
+          "family": "Schulze",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christin",
+          "family": "Mache",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elischa",
+          "family": "Berger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-9828-0906",
+          "authenticated-orcid": false,
+          "given": "Jessica",
+          "family": "Panajotov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lisa",
+          "family": "Arnold",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3079-6586",
+          "authenticated-orcid": false,
+          "given": "Björn",
+          "family": "Grüning",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Markus",
+          "family": "Bauswein",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sindy",
+          "family": "Böttcher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Reimar",
+          "family": "Johne",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8422-6581",
+          "authenticated-orcid": false,
+          "given": "Jürgen",
+          "family": "Wenzel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Martin",
+          "family": "Hölzer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3596-5964",
+          "authenticated-orcid": false,
+          "given": "Marcus",
+          "family": "Panning",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nature Communications"
+      ],
+      "registered_years": [
+        2025
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "primerpickr",
+      "title": "{Primer PICKR: literature-mined scoring platform for robust RT--qPCR primers}",
+      "doi": "10.1038/s41467-026-73648-2",
+      "year": "2026",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1038%2Fs41467-026-73648-2",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Primer PICKR: literature-mined scoring platform for robust RT–qPCR primers",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Thomas G.",
+          "family": "Molley",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Abhinaba",
+          "family": "Banerjee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alis",
+          "family": "Balayan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jun K.",
+          "family": "Robbins",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1642-5380",
+          "authenticated-orcid": false,
+          "given": "Adam J.",
+          "family": "Engler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nature Communications"
+      ],
+      "registered_years": [
+        2026
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "prism",
+      "title": "{Primer design through submodular function estimation}",
+      "doi": "10.1093/bioinformatics/btag478",
+      "year": "2026",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtag478",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Primer design through submodular function estimation",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8611-2828",
+          "authenticated-orcid": false,
+          "given": "Yixin",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science and Engineering, College of Engineering, Texas A&M University , College Station, TX 77843-3112,",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0200-5924",
+          "authenticated-orcid": false,
+          "given": "Yunheng",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer and Information Science and Engineering, Herbert Wertheim College of Engineering, University of Florida , Gainesville, FL 32611,",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-8152-612X",
+          "authenticated-orcid": false,
+          "given": "Ao",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer and Information Science and Engineering, Herbert Wertheim College of Engineering, University of Florida , Gainesville, FL 32611,",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-7138-182X",
+          "authenticated-orcid": false,
+          "given": "Aaron",
+          "family": "Hong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer and Information Science and Engineering, Herbert Wertheim College of Engineering, University of Florida , Gainesville, FL 32611,",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3703-834X",
+          "authenticated-orcid": false,
+          "given": "Adam R",
+          "family": "Rivers",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "United States Department of Agriculture , Gainesville, FL 32608,",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6506-1902",
+          "authenticated-orcid": false,
+          "given": "Alan",
+          "family": "Kuhnle",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science and Engineering, College of Engineering, Texas A&M University , College Station, TX 77843-3112,",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9509-9725",
+          "authenticated-orcid": false,
+          "given": "Christina",
+          "family": "Boucher",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer and Information Science and Engineering, Herbert Wertheim College of Engineering, University of Florida , Gainesville, FL 32611,",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Bioinformatics"
+      ],
+      "registered_years": [
+        2026
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "refseq",
+      "title": "{Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation}",
+      "doi": "10.1093/nar/gkv1189",
+      "year": "2016",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkv1189",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Nuala A.",
+          "family": "O'Leary",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mathew W.",
+          "family": "Wright",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J. Rodney",
+          "family": "Brister",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stacy",
+          "family": "Ciufo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Diana",
+          "family": "Haddad",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rich",
+          "family": "McVeigh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bhanu",
+          "family": "Rajput",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Barbara",
+          "family": "Robbertse",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brian",
+          "family": "Smith-White",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Danso",
+          "family": "Ako-Adjei",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexander",
+          "family": "Astashyn",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Azat",
+          "family": "Badretdin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yiming",
+          "family": "Bao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Olga",
+          "family": "Blinkova",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vyacheslav",
+          "family": "Brover",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vyacheslav",
+          "family": "Chetvernin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jinna",
+          "family": "Choi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eric",
+          "family": "Cox",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Olga",
+          "family": "Ermolaeva",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Catherine M.",
+          "family": "Farrell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tamara",
+          "family": "Goldfarb",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tripti",
+          "family": "Gupta",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Haft",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eneida",
+          "family": "Hatcher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wratko",
+          "family": "Hlavina",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vinita S.",
+          "family": "Joardar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vamsi K.",
+          "family": "Kodali",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenjun",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Donna",
+          "family": "Maglott",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Patrick",
+          "family": "Masterson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kelly M.",
+          "family": "McGarvey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael R.",
+          "family": "Murphy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kathleen",
+          "family": "O'Neill",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shashikant",
+          "family": "Pujar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sanjida H.",
+          "family": "Rangwala",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Rausch",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lillian D.",
+          "family": "Riddick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Conrad",
+          "family": "Schoch",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrei",
+          "family": "Shkeda",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Susan S.",
+          "family": "Storz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hanzhen",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Francoise",
+          "family": "Thibaud-Nissen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Igor",
+          "family": "Tolstoy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Raymond E.",
+          "family": "Tully",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anjana R.",
+          "family": "Vatsan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Craig",
+          "family": "Wallin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Webb",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wendy",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Melissa J.",
+          "family": "Landrum",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Avi",
+          "family": "Kimchi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tatiana",
+          "family": "Tatusova",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "DiCuccio",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paul",
+          "family": "Kitts",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Terence D.",
+          "family": "Murphy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kim D.",
+          "family": "Pruitt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nucleic Acids Research"
+      ],
+      "registered_years": [
+        2015,
+        2016
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "assembly",
+      "title": "{Assembly: a resource for assembled genomes at NCBI}",
+      "doi": "10.1093/nar/gkv1226",
+      "year": "2016",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkv1226",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Assembly: a resource for assembled genomes at NCBI",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Paul A.",
+          "family": "Kitts",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Deanna M.",
+          "family": "Church",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Françoise",
+          "family": "Thibaud-Nissen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jinna",
+          "family": "Choi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vichet",
+          "family": "Hem",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Victor",
+          "family": "Sapojnikov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert G.",
+          "family": "Smith",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tatiana",
+          "family": "Tatusova",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Charlie",
+          "family": "Xiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrey",
+          "family": "Zherikov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "DiCuccio",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Terence D.",
+          "family": "Murphy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kim D.",
+          "family": "Pruitt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Avi",
+          "family": "Kimchi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nucleic Acids Research"
+      ],
+      "registered_years": [
+        2015,
+        2016
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "mouseassembly",
+      "title": "{Lineage-Specific Biology Revealed by a Finished Genome Assembly of the Mouse}",
+      "doi": "10.1371/journal.pbio.1000112",
+      "year": "2009",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1371%2Fjournal.pbio.1000112",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Lineage-Specific Biology Revealed by a Finished Genome Assembly of the Mouse",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Deanna M.",
+          "family": "Church",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Leo",
+          "family": "Goodstadt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "LaDeana W.",
+          "family": "Hillier",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael C.",
+          "family": "Zody",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Steve",
+          "family": "Goldstein",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinwe",
+          "family": "She",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carol J.",
+          "family": "Bult",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Richa",
+          "family": "Agarwala",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joshua L.",
+          "family": "Cherry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "DiCuccio",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wratko",
+          "family": "Hlavina",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuri",
+          "family": "Kapustin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peter",
+          "family": "Meric",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Donna",
+          "family": "Maglott",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zoë",
+          "family": "Birtle",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ana C.",
+          "family": "Marques",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tina",
+          "family": "Graves",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shiguo",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brian",
+          "family": "Teague",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Konstantinos",
+          "family": "Potamousis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christopher",
+          "family": "Churas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Place",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jill",
+          "family": "Herschleb",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ron",
+          "family": "Runnheim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Forrest",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "James",
+          "family": "Amos-Landgraf",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David C.",
+          "family": "Schwartz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ze",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kerstin",
+          "family": "Lindblad-Toh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Evan E.",
+          "family": "Eichler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chris P.",
+          "family": "Ponting",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "name": "The Mouse Genome Sequencing Consortium",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "PLoS Biology"
+      ],
+      "registered_years": [
+        2009
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "bowtie",
+      "title": "{Ultrafast and memory-efficient alignment of short DNA sequences to the human genome}",
+      "doi": "10.1186/gb-2009-10-3-r25",
+      "year": "2009",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1186%2Fgb-2009-10-3-r25",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Ben",
+          "family": "Langmead",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cole",
+          "family": "Trapnell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mihai",
+          "family": "Pop",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Steven L",
+          "family": "Salzberg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Genome Biology"
+      ],
+      "registered_years": [
+        2009
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "mmseqs",
+      "title": "{MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets}",
+      "doi": "10.1038/nbt.3988",
+      "year": "2017",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1038%2Fnbt.3988",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8781-9753",
+          "authenticated-orcid": false,
+          "given": "Martin",
+          "family": "Steinegger",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9642-8244",
+          "authenticated-orcid": false,
+          "given": "Johannes",
+          "family": "Söding",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nature Biotechnology"
+      ],
+      "registered_years": [
+        2017
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "biopython",
+      "title": "{Biopython: freely available Python tools for computational molecular biology and bioinformatics}",
+      "doi": "10.1093/bioinformatics/btp163",
+      "year": "2009",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtp163",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Biopython: freely available Python tools for computational molecular biology and bioinformatics",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Peter J. A.",
+          "family": "Cock",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tiago",
+          "family": "Antao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jeffrey T.",
+          "family": "Chang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brad A.",
+          "family": "Chapman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cymon J.",
+          "family": "Cox",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrew",
+          "family": "Dalke",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Iddo",
+          "family": "Friedberg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas",
+          "family": "Hamelryck",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Frank",
+          "family": "Kauff",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bartek",
+          "family": "Wilczynski",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            },
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michiel J. L.",
+          "family": "de Hoon",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "1 Plant Pathology, SCRI, Invergowrie, Dundee, DD2 5DA, 2Liverpool School of Tropical Medicine, Liverpool, L3 5QA, UK, 3Institute for Genome Sciences and Policy, Duke University Medical Center, Durham, NC, 4Department of Molecular Biology, Simches Research Center, Massachusetts General Hospital, Boston, MA 02114, USA, 5Centro de Ciências do Mar, Universidade do Algarve, Faro, Portugal, 6Andrew Dalke Scientific, AB, Gothenburg, Sweden, 7California Institute for Telecommunications and Information Technology, University of California, San Diego, 9500 Gilman Dr., La Jolla, CA 92093-0446, USA, 8Bioinformatics Center, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen N, Denmark, 9Molecular Phylogenetics, Department of Biology, TU Kaiserslautern, 67653 Kaiserslautern, UK, 10EMBL Heidelberg, Meyerhofstraβe 1, 69117 Heidelberg, Germany, 11Institute of Informatics, University of Warsaw, Poland and 12RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama-shi, Kanagawa-ken,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Bioinformatics"
+      ],
+      "registered_years": [
+        2009
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "santalucia",
+      "title": "{A unified view of polymer, dumbbell, and oligonucleotide DNA nearest-neighbor thermodynamics}",
+      "doi": "10.1073/pnas.95.4.1460",
+      "year": "1998",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1073%2Fpnas.95.4.1460",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "A unified view of polymer, dumbbell, and oligonucleotide DNA nearest-neighbor thermodynamics",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "suffix": "Jr.",
+          "given": "John",
+          "family": "SantaLucia",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, Wayne State University, Detroit, MI 48202"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Proceedings of the National Academy of Sciences"
+      ],
+      "registered_years": [
+        1998
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "santaluciahicks",
+      "title": "{The Thermodynamics of DNA Structural Motifs}",
+      "doi": "10.1146/annurev.biophys.32.110601.141800",
+      "year": "2004",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1146%2Fannurev.biophys.32.110601.141800",
+          "http_status": 429
+        },
+        {
+          "url": "https://api.crossref.org/works/10.1146/annurev.biophys.32.110601.141800",
+          "http_status": 200,
+          "cache_file": "santaluciahicks_retry.json"
+        }
+      ],
+      "registered_title": "The Thermodynamics of DNA Structural Motifs",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "suffix": "Jr.",
+          "given": "John",
+          "family": "SantaLucia",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, Wayne State University, Detroit, Michigan 48202;"
+            },
+            {
+              "name": "DNA Software, Inc., Ann Arbor, Michigan 48104;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Donald",
+          "family": "Hicks",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "DNA Software, Inc., Ann Arbor, Michigan 48104;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": null,
+      "registered_years": [
+        2004
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "owczarzy",
+      "title": "{Predicting Stability of DNA Duplexes in Solutions Containing Magnesium and Monovalent Cations}",
+      "doi": "10.1021/bi702363u",
+      "year": "2008",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1021%2Fbi702363u",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Predicting Stability of DNA Duplexes in Solutions Containing Magnesium and Monovalent Cations",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Richard",
+          "family": "Owczarzy",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Integrated DNA Technologies, 1710 Commercial Park, Coralville, Iowa 52241"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bernardo G.",
+          "family": "Moreira",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Integrated DNA Technologies, 1710 Commercial Park, Coralville, Iowa 52241"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yong",
+          "family": "You",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Integrated DNA Technologies, 1710 Commercial Park, Coralville, Iowa 52241"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mark A.",
+          "family": "Behlke",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Integrated DNA Technologies, 1710 Commercial Park, Coralville, Iowa 52241"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joseph A.",
+          "family": "Walder",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Integrated DNA Technologies, 1710 Commercial Park, Coralville, Iowa 52241"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Biochemistry"
+      ],
+      "registered_years": [
+        2008
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "allawisantalucia",
+      "title": "{Thermodynamics and NMR of Internal G\\textperiodcentered{}T Mismatches in DNA}",
+      "doi": "10.1021/bi962590c",
+      "year": "1997",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1021%2Fbi962590c",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Thermodynamics and NMR of Internal G·T Mismatches in DNA",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Hatim T.",
+          "family": "Allawi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, Wayne State University, Detroit, Michigan 48202"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John",
+          "family": "SantaLucia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, Wayne State University, Detroit, Michigan 48202"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Biochemistry"
+      ],
+      "registered_years": [
+        1997
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "deepbind",
+      "title": "{Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning}",
+      "doi": "10.1038/nbt.3300",
+      "year": "2015",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1038%2Fnbt.3300",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Babak",
+          "family": "Alipanahi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrew",
+          "family": "Delong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthew T",
+          "family": "Weirauch",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brendan J",
+          "family": "Frey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nature Biotechnology"
+      ],
+      "registered_years": [
+        2015
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "deepsea",
+      "title": "{Predicting effects of noncoding variants with deep learning--based sequence model}",
+      "doi": "10.1038/nmeth.3547",
+      "year": "2015",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1038%2Fnmeth.3547",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Predicting effects of noncoding variants with deep learning–based sequence model",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Jian",
+          "family": "Zhou",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Olga G",
+          "family": "Troyanskaya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nature Methods"
+      ],
+      "registered_years": [
+        2015
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "basenji",
+      "title": "{Sequential regulatory activity prediction across chromosomes with convolutional neural networks}",
+      "doi": "10.1101/gr.227819.117",
+      "year": "2018",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1101%2Fgr.227819.117",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Sequential regulatory activity prediction across chromosomes with convolutional neural networks",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7782-3548",
+          "authenticated-orcid": false,
+          "given": "David R.",
+          "family": "Kelley",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yakir A.",
+          "family": "Reshef",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maxwell",
+          "family": "Bileschi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Belanger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9928-8216",
+          "authenticated-orcid": false,
+          "given": "Cory Y.",
+          "family": "McLean",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jasper",
+          "family": "Snoek",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Genome Research"
+      ],
+      "registered_years": [
+        2018
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "enformer",
+      "title": "{Effective gene expression prediction from sequence by integrating long-range interactions}",
+      "doi": "10.1038/s41592-021-01252-x",
+      "year": "2021",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1038%2Fs41592-021-01252-x",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7790-8936",
+          "authenticated-orcid": false,
+          "given": "Žiga",
+          "family": "Avsec",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vikram",
+          "family": "Agarwal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Visentin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joseph R.",
+          "family": "Ledsam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Agnieszka",
+          "family": "Grabska-Barwinska",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kyle R.",
+          "family": "Taylor",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yannis",
+          "family": "Assael",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John",
+          "family": "Jumper",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7466-7997",
+          "authenticated-orcid": false,
+          "given": "Pushmeet",
+          "family": "Kohli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7782-3548",
+          "authenticated-orcid": false,
+          "given": "David R.",
+          "family": "Kelley",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nature Methods"
+      ],
+      "registered_years": [
+        2021
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "rtprimerdb",
+      "title": "{RTPrimerDB: the portal for real-time PCR primers and probes}",
+      "doi": "10.1093/nar/gkn777",
+      "year": "2009",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkn777",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "RTPrimerDB: the portal for real-time PCR primers and probes",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "S.",
+          "family": "Lefever",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J.",
+          "family": "Vandesompele",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "F.",
+          "family": "Speleman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "F.",
+          "family": "Pattyn",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nucleic Acids Research"
+      ],
+      "registered_years": [
+        2009
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "quantprime",
+      "title": "{QuantPrime -- a flexible tool for reliable high-throughput primer design for quantitative PCR}",
+      "doi": "10.1186/1471-2105-9-465",
+      "year": "2008",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1186%2F1471-2105-9-465",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "QuantPrime – a flexible tool for reliable high-throughput primer design for quantitative PCR",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Samuel",
+          "family": "Arvidsson",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Miroslaw",
+          "family": "Kwasniewski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Diego Mauricio",
+          "family": "Riaño-Pachón",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bernd",
+          "family": "Mueller-Roeber",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "BMC Bioinformatics"
+      ],
+      "registered_years": [
+        2008
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "qprimerdepot",
+      "title": "{qPrimerDepot: a primer database for quantitative real time PCR}",
+      "doi": "10.1093/nar/gkl767",
+      "year": "2007",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkl767",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "qPrimerDepot: a primer database for quantitative real time PCR",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "W.",
+          "family": "Cui",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D. D.",
+          "family": "Taub",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Gardner",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nucleic Acids Research"
+      ],
+      "registered_years": [
+        2007
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "mrprimer",
+      "title": "{MRPrimer: a MapReduce-based method for the thorough design of valid and ranked primers for PCR}",
+      "doi": "10.1093/nar/gkv632",
+      "year": "2015",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkv632",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "MRPrimer: a MapReduce-based method for the thorough design of valid and ranked primers for PCR",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Hyerin",
+          "family": "Kim",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "NaNa",
+          "family": "Kang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kang-Wook",
+          "family": "Chon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Seonho",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "NaHye",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "JaeHyung",
+          "family": "Koo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Min-Soo",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Nucleic Acids Research"
+      ],
+      "registered_years": [
+        2015
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "mpprimer",
+      "title": "{MPprimer: a program for reliable multiplex PCR primer design}",
+      "doi": "10.1186/1471-2105-11-143",
+      "year": "2010",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1186%2F1471-2105-11-143",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "MPprimer: a program for reliable multiplex PCR primer design",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Zhiyong",
+          "family": "Shen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wubin",
+          "family": "Qu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wen",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yiming",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yonghong",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhifeng",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xingyi",
+          "family": "Hang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaolei",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dongsheng",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chenggang",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "BMC Bioinformatics"
+      ],
+      "registered_years": [
+        2010
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "primerpooler",
+      "title": "{PrimerPooler: automated primer pooling to prepare library for targeted sequencing}",
+      "doi": "10.1093/biomethods/bpx006",
+      "year": "2017",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1093%2Fbiomethods%2Fbpx006",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "PrimerPooler: automated primer pooling to prepare library for targeted sequencing",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Silas S.",
+          "family": "Brown",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Cambridge Computer Laboratory, 15 JJ Thompson Avenue, Cambridge, CB3 0FD, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yun-Wen",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Division of Cellular and Molecular Pathology, University of Cambridge, CB2 0QQ, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ming",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Division of Cellular and Molecular Pathology, University of Cambridge, CB2 0QQ, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexandra",
+          "family": "Clipson",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Division of Cellular and Molecular Pathology, University of Cambridge, CB2 0QQ, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eguzkine",
+          "family": "Ochoa",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Division of Cellular and Molecular Pathology, University of Cambridge, CB2 0QQ, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ming-Qing",
+          "family": "Du",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Division of Cellular and Molecular Pathology, University of Cambridge, CB2 0QQ, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Biology Methods and Protocols"
+      ],
+      "registered_years": [
+        2017
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "primercvae",
+      "title": "{Primer C-VAE: An interpretable deep learning primer design method to detect emerging virus variants}",
+      "doi": "10.48550/arXiv.2503.01459",
+      "year": "2025",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2503.01459",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://arxiv.org/abs/2503.01459",
+          "metadata": {
+            "og:title": [
+              "Primer C-VAE: An interpretable deep learning primer design method to detect emerging virus variants"
+            ],
+            "citation_title": [
+              "Primer C-VAE: An interpretable deep learning primer design method to detect emerging virus variants"
+            ],
+            "citation_author": [
+              "Wang, Hanyu",
+              "Tsinda, Emmanuel K.",
+              "Dunn, Anthony J.",
+              "Chikweto, Francis",
+              "Zemkoho, Alain B."
+            ],
+            "citation_date": [
+              "2025/03/03"
+            ],
+            "citation_online_date": [
+              "2025/12/16"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/2503.01459"
+            ],
+            "citation_arxiv_id": [
+              "2503.01459"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true,
+      "status": "arXiv preprint, not represented as a peer-reviewed journal article"
+    },
+    {
+      "key": "d3pm",
+      "title": "{Structured Denoising Diffusion Models in Discrete State-Spaces}",
+      "doi": null,
+      "year": "2021",
+      "sources": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2021/hash/958c530554f78bcd8e97125b70e6973d-Abstract.html",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/2107.03006",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2021/hash/958c530554f78bcd8e97125b70e6973d-Abstract.html",
+          "metadata": {
+            "citation_title": [
+              "Structured Denoising Diffusion Models in Discrete State-Spaces"
+            ],
+            "citation_author": [
+              "Austin, Jacob",
+              "Johnson, Daniel D.",
+              "Ho, Jonathan",
+              "Tarlow, Daniel",
+              "van den Berg, Rianne"
+            ],
+            "citation_journal_title": [
+              "Advances in Neural Information Processing Systems"
+            ],
+            "citation_volume": [
+              "34"
+            ],
+            "citation_firstpage": [
+              "17981"
+            ],
+            "citation_lastpage": [
+              "17993"
+            ],
+            "citation_pdf_url": [
+              "https://proceedings.neurips.cc/paper_files/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf"
+            ],
+            "citation_publication_date": [
+              "2021-12-06"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/2107.03006",
+          "metadata": {
+            "og:title": [
+              "Structured Denoising Diffusion Models in Discrete State-Spaces"
+            ],
+            "citation_title": [
+              "Structured Denoising Diffusion Models in Discrete State-Spaces"
+            ],
+            "citation_author": [
+              "Austin, Jacob",
+              "Johnson, Daniel D.",
+              "Ho, Jonathan",
+              "Tarlow, Daniel",
+              "Berg, Rianne van den"
+            ],
+            "citation_date": [
+              "2021/07/07"
+            ],
+            "citation_online_date": [
+              "2023/02/22"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/2107.03006"
+            ],
+            "citation_arxiv_id": [
+              "2107.03006"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true
+    },
+    {
+      "key": "mdlm",
+      "title": "{Simple and Effective Masked Diffusion Language Models}",
+      "doi": "10.52202/079017-4135",
+      "year": "2024",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.52202%2F079017-4135",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Simple and Effective Masked Diffusion Language Models",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Subham",
+          "family": "Sahoo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marianne",
+          "family": "Arriola",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yair",
+          "family": "Schiff",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aaron",
+          "family": "Gokaslan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Edgar",
+          "family": "Marroquin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Justin",
+          "family": "Chiu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexander",
+          "family": "Rush",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Volodymyr",
+          "family": "Kuleshov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Advances in Neural Information Processing Systems 37"
+      ],
+      "registered_years": [
+        2024
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "discrete_diffusion",
+      "title": "{Simplified and Generalized Masked Diffusion for Discrete Data}",
+      "doi": "10.52202/079017-3277",
+      "year": "2024",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.52202%2F079017-3277",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Simplified and Generalized Masked Diffusion for Discrete Data",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Jiaxin",
+          "family": "Shi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kehang",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhe",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arnaud",
+          "family": "Doucet",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michalis",
+          "family": "Titsias",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Advances in Neural Information Processing Systems 37"
+      ],
+      "registered_years": [
+        2024
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "sedd",
+      "title": "{Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution}",
+      "doi": null,
+      "year": "2024",
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v235/lou24a.html",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.16834",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://proceedings.mlr.press/v235/lou24a.html",
+          "metadata": {
+            "citation_publisher": [
+              "PMLR"
+            ],
+            "citation_title": [
+              "Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution"
+            ],
+            "citation_language": [
+              "en"
+            ],
+            "citation_abstract_html_url": [
+              "https://proceedings.mlr.press/v235/lou24a.html"
+            ],
+            "citation_pdf_url": [
+              "https://raw.githubusercontent.com/mlresearch/v235/main/assets/lou24a/lou24a.pdf"
+            ],
+            "citation_firstpage": [
+              "32819"
+            ],
+            "citation_lastpage": [
+              "32848"
+            ],
+            "citation_author": [
+              "Aaron Lou",
+              "Chenlin Meng",
+              "Stefano Ermon"
+            ],
+            "citation_publication_date": [
+              "2024/07/08"
+            ],
+            "citation_inbook_title": [
+              "International Conference on Machine Learning"
+            ],
+            "citation_conference_title": [
+              "International Conference on Machine Learning"
+            ],
+            "citation_issn": [
+              "2640-3498"
+            ],
+            "og:title": [
+              "Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.16834",
+          "metadata": {
+            "og:title": [
+              "Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution"
+            ],
+            "citation_title": [
+              "Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution"
+            ],
+            "citation_author": [
+              "Lou, Aaron",
+              "Meng, Chenlin",
+              "Ermon, Stefano"
+            ],
+            "citation_date": [
+              "2023/10/25"
+            ],
+            "citation_online_date": [
+              "2024/06/06"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/2310.16834"
+            ],
+            "citation_arxiv_id": [
+              "2310.16834"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true
+    },
+    {
+      "key": "ctmc",
+      "title": "{A Continuous Time Framework for Discrete Denoising Models}",
+      "doi": "10.52202/068431-2049",
+      "year": "2022",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.52202%2F068431-2049",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "A Continuous Time Framework for Discrete Denoising Models",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Andrew",
+          "family": "Campbell",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joe",
+          "family": "Benton",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Valentin De",
+          "family": "Bortoli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas",
+          "family": "Rainforth",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "George",
+          "family": "Deligiannidis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arnaud",
+          "family": "Doucet",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Advances in Neural Information Processing Systems 35"
+      ],
+      "registered_years": [
+        2022
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "maskgit",
+      "title": "{MaskGIT: Masked Generative Image Transformer}",
+      "doi": null,
+      "year": "2022",
+      "sources": [
+        {
+          "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Chang_MaskGIT_Masked_Generative_Image_Transformer_CVPR_2022_paper.html",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/2202.04200",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Chang_MaskGIT_Masked_Generative_Image_Transformer_CVPR_2022_paper.html",
+          "metadata": {
+            "citation_title": [
+              "MaskGIT: Masked Generative Image Transformer"
+            ],
+            "citation_author": [
+              "Chang, Huiwen",
+              "Zhang, Han",
+              "Jiang, Lu",
+              "Liu, Ce",
+              "Freeman, William T."
+            ],
+            "citation_publication_date": [
+              "2022"
+            ],
+            "citation_conference_title": [
+              "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+            ],
+            "citation_firstpage": [
+              "11315"
+            ],
+            "citation_lastpage": [
+              "11325"
+            ],
+            "citation_pdf_url": [
+              "https://openaccess.thecvf.com/content/CVPR2022/papers/Chang_MaskGIT_Masked_Generative_Image_Transformer_CVPR_2022_paper.pdf"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/2202.04200",
+          "metadata": {
+            "og:title": [
+              "MaskGIT: Masked Generative Image Transformer"
+            ],
+            "citation_title": [
+              "MaskGIT: Masked Generative Image Transformer"
+            ],
+            "citation_author": [
+              "Chang, Huiwen",
+              "Zhang, Han",
+              "Jiang, Lu",
+              "Liu, Ce",
+              "Freeman, William T."
+            ],
+            "citation_date": [
+              "2022/02/08"
+            ],
+            "citation_online_date": [
+              "2022/02/08"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/2202.04200"
+            ],
+            "citation_arxiv_id": [
+              "2202.04200"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true
+    },
+    {
+      "key": "ddpm",
+      "title": "{Denoising Diffusion Probabilistic Models}",
+      "doi": null,
+      "year": "2020",
+      "sources": [
+        {
+          "url": "https://papers.nips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/2006.11239",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://papers.nips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+          "metadata": {
+            "citation_title": [
+              "Denoising Diffusion Probabilistic Models"
+            ],
+            "citation_author": [
+              "Ho, Jonathan",
+              "Jain, Ajay",
+              "Abbeel, Pieter"
+            ],
+            "citation_journal_title": [
+              "Advances in Neural Information Processing Systems"
+            ],
+            "citation_volume": [
+              "33"
+            ],
+            "citation_firstpage": [
+              "6840"
+            ],
+            "citation_lastpage": [
+              "6851"
+            ],
+            "citation_pdf_url": [
+              "https://proceedings.neurips.cc/paper_files/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf"
+            ],
+            "citation_publication_date": [
+              "2020"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/2006.11239",
+          "metadata": {
+            "og:title": [
+              "Denoising Diffusion Probabilistic Models"
+            ],
+            "citation_title": [
+              "Denoising Diffusion Probabilistic Models"
+            ],
+            "citation_author": [
+              "Ho, Jonathan",
+              "Jain, Ajay",
+              "Abbeel, Pieter"
+            ],
+            "citation_date": [
+              "2020/06/19"
+            ],
+            "citation_online_date": [
+              "2020/12/16"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/2006.11239"
+            ],
+            "citation_arxiv_id": [
+              "2006.11239"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true
+    },
+    {
+      "key": "classifierfree",
+      "title": "{Classifier-Free Diffusion Guidance}",
+      "doi": "10.48550/arXiv.2207.12598",
+      "year": "2022",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2207.12598",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://arxiv.org/abs/2207.12598",
+          "metadata": {
+            "og:title": [
+              "Classifier-Free Diffusion Guidance"
+            ],
+            "citation_title": [
+              "Classifier-Free Diffusion Guidance"
+            ],
+            "citation_author": [
+              "Ho, Jonathan",
+              "Salimans, Tim"
+            ],
+            "citation_date": [
+              "2022/07/26"
+            ],
+            "citation_online_date": [
+              "2022/07/26"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/2207.12598"
+            ],
+            "citation_arxiv_id": [
+              "2207.12598"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true
+    },
+    {
+      "key": "diffusionlm",
+      "title": "{Diffusion-LM Improves Controllable Text Generation}",
+      "doi": "10.52202/068431-0313",
+      "year": "2022",
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.52202%2F068431-0313",
+          "http_status": 200
+        }
+      ],
+      "registered_title": "Diffusion-LM Improves Controllable Text Generation",
+      "title_similarity": 1.0,
+      "registered_authors": [
+        {
+          "given": "Xiang",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John",
+          "family": "Thickstun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ishaan",
+          "family": "Gulrajani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Percy",
+          "family": "Liang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tatsunori",
+          "family": "Hashimoto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registered_container": [
+        "Advances in Neural Information Processing Systems 35"
+      ],
+      "registered_years": [
+        2022
+      ],
+      "identity_verified": true,
+      "year_matches": true,
+      "author_metadata_checked": true
+    },
+    {
+      "key": "reparamdiffusion",
+      "title": "{A Reparameterized Discrete Diffusion Model for Text Generation}",
+      "doi": null,
+      "year": "2024",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2302.05737",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://arxiv.org/abs/2302.05737",
+          "metadata": {
+            "og:title": [
+              "A Reparameterized Discrete Diffusion Model for Text Generation"
+            ],
+            "citation_title": [
+              "A Reparameterized Discrete Diffusion Model for Text Generation"
+            ],
+            "citation_author": [
+              "Zheng, Lin",
+              "Yuan, Jianbo",
+              "Yu, Lei",
+              "Kong, Lingpeng"
+            ],
+            "citation_date": [
+              "2023/02/11"
+            ],
+            "citation_online_date": [
+              "2024/08/02"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/2302.05737"
+            ],
+            "citation_arxiv_id": [
+              "2302.05737"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true,
+      "url_correction": "https://openreview.net/forum?id=PEQFHRUFca",
+      "url_note": "Specific work landing page replaces general index/PDF link. OpenReview browser checks are recorded; work identity is independently verified on official arXiv."
+    },
+    {
+      "key": "radd",
+      "title": "{Your Absorbing Discrete Diffusion Secretly Models the Conditional Distributions of Clean Data}",
+      "doi": null,
+      "year": "2025",
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a365e37c18fb91af547a2f0012a89e98-Abstract-Conference.html",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/2406.03736",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a365e37c18fb91af547a2f0012a89e98-Abstract-Conference.html",
+          "metadata": {
+            "citation_title": [
+              "Your Absorbing Discrete Diffusion Secretly Models the Conditional Distributions of Clean Data"
+            ],
+            "citation_author": [
+              "Ou, Jingyang",
+              "Nie, Shen",
+              "Xue, Kaiwen",
+              "Zhu, Fengqi",
+              "Sun, Jiacheng",
+              "Li, Zhenguo",
+              "Li, Chongxuan"
+            ],
+            "citation_journal_title": [
+              "International Conference on Learning Representations"
+            ],
+            "citation_volume": [
+              "2025"
+            ],
+            "citation_firstpage": [
+              "64972"
+            ],
+            "citation_lastpage": [
+              "65009"
+            ],
+            "citation_pdf_url": [
+              "https://proceedings.iclr.cc/paper_files/paper/2025/file/a365e37c18fb91af547a2f0012a89e98-Paper-Conference.pdf"
+            ],
+            "citation_publication_date": [
+              "2025-05-01"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/2406.03736",
+          "metadata": {
+            "og:title": [
+              "Your Absorbing Discrete Diffusion Secretly Models the Conditional Distributions of Clean Data"
+            ],
+            "citation_title": [
+              "Your Absorbing Discrete Diffusion Secretly Models the Conditional Distributions of Clean Data"
+            ],
+            "citation_author": [
+              "Ou, Jingyang",
+              "Nie, Shen",
+              "Xue, Kaiwen",
+              "Zhu, Fengqi",
+              "Sun, Jiacheng",
+              "Li, Zhenguo",
+              "Li, Chongxuan"
+            ],
+            "citation_date": [
+              "2024/06/06"
+            ],
+            "citation_online_date": [
+              "2026/03/23"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/2406.03736"
+            ],
+            "citation_arxiv_id": [
+              "2406.03736"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true
+    },
+    {
+      "key": "adamw",
+      "title": "{Decoupled Weight Decay Regularization}",
+      "doi": null,
+      "year": "2019",
+      "sources": [
+        {
+          "url": "https://iclr.cc/Downloads/2019",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/1711.05101",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://iclr.cc/Downloads/2019",
+          "metadata": {},
+          "title_similarity": 0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/1711.05101",
+          "metadata": {
+            "og:title": [
+              "Decoupled Weight Decay Regularization"
+            ],
+            "citation_title": [
+              "Decoupled Weight Decay Regularization"
+            ],
+            "citation_author": [
+              "Loshchilov, Ilya",
+              "Hutter, Frank"
+            ],
+            "citation_date": [
+              "2017/11/14"
+            ],
+            "citation_online_date": [
+              "2019/01/04"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/1711.05101"
+            ],
+            "citation_arxiv_id": [
+              "1711.05101"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true,
+      "url_correction": "https://openreview.net/forum?id=Bkg6RiCqY7",
+      "url_note": "Specific work landing page replaces general index/PDF link. OpenReview browser checks are recorded; work identity is independently verified on official arXiv."
+    },
+    {
+      "key": "pytorch",
+      "title": "{PyTorch: An Imperative Style, High-Performance Deep Learning Library}",
+      "doi": null,
+      "year": "2019",
+      "sources": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2019/hash/bdbca288fee7f92f2bfa9f7012727740-Abstract.html",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/1912.01703",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2019/hash/bdbca288fee7f92f2bfa9f7012727740-Abstract.html",
+          "metadata": {
+            "citation_title": [
+              "PyTorch: An Imperative Style, High-Performance Deep Learning Library"
+            ],
+            "citation_author": [
+              "Paszke, Adam",
+              "Gross, Sam",
+              "Massa, Francisco",
+              "Lerer, Adam",
+              "Bradbury, James",
+              "Chanan, Gregory",
+              "Killeen, Trevor",
+              "Lin, Zeming",
+              "Gimelshein, Natalia",
+              "Antiga, Luca",
+              "Desmaison, Alban",
+              "Kopf, Andreas",
+              "Yang, Edward",
+              "DeVito, Zachary",
+              "Raison, Martin",
+              "Tejani, Alykhan",
+              "Chilamkurthy, Sasank",
+              "Steiner, Benoit",
+              "Fang, Lu",
+              "Bai, Junjie",
+              "Chintala, Soumith"
+            ],
+            "citation_journal_title": [
+              "Advances in Neural Information Processing Systems"
+            ],
+            "citation_volume": [
+              "32"
+            ],
+            "citation_pdf_url": [
+              "https://proceedings.neurips.cc/paper_files/paper/2019/file/bdbca288fee7f92f2bfa9f7012727740-Paper.pdf"
+            ],
+            "citation_publication_date": [
+              "2019"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/1912.01703",
+          "metadata": {
+            "og:title": [
+              "PyTorch: An Imperative Style, High-Performance Deep Learning Library"
+            ],
+            "citation_title": [
+              "PyTorch: An Imperative Style, High-Performance Deep Learning Library"
+            ],
+            "citation_author": [
+              "Paszke, Adam",
+              "Gross, Sam",
+              "Massa, Francisco",
+              "Lerer, Adam",
+              "Bradbury, James",
+              "Chanan, Gregory",
+              "Killeen, Trevor",
+              "Lin, Zeming",
+              "Gimelshein, Natalia",
+              "Antiga, Luca",
+              "Desmaison, Alban",
+              "Köpf, Andreas",
+              "Yang, Edward",
+              "DeVito, Zach",
+              "Raison, Martin",
+              "Tejani, Alykhan",
+              "Chilamkurthy, Sasank",
+              "Steiner, Benoit",
+              "Fang, Lu",
+              "Bai, Junjie",
+              "Chintala, Soumith"
+            ],
+            "citation_date": [
+              "2019/12/03"
+            ],
+            "citation_online_date": [
+              "2019/12/03"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/1912.01703"
+            ],
+            "citation_arxiv_id": [
+              "1912.01703"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true
+    },
+    {
+      "key": "attention",
+      "title": "{Attention Is All You Need}",
+      "doi": null,
+      "year": "2017",
+      "sources": [
+        {
+          "url": "https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/1706.03762",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+          "metadata": {
+            "citation_title": [
+              "Attention is All you Need"
+            ],
+            "citation_author": [
+              "Vaswani, Ashish",
+              "Shazeer, Noam",
+              "Parmar, Niki",
+              "Uszkoreit, Jakob",
+              "Jones, Llion",
+              "Gomez, Aidan N.",
+              "Kaiser, Łukasz",
+              "Polosukhin, Illia"
+            ],
+            "citation_journal_title": [
+              "Advances in Neural Information Processing Systems"
+            ],
+            "citation_volume": [
+              "30"
+            ],
+            "citation_pdf_url": [
+              "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf"
+            ],
+            "citation_publication_date": [
+              "2017"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/1706.03762",
+          "metadata": {
+            "og:title": [
+              "Attention Is All You Need"
+            ],
+            "citation_title": [
+              "Attention Is All You Need"
+            ],
+            "citation_author": [
+              "Vaswani, Ashish",
+              "Shazeer, Noam",
+              "Parmar, Niki",
+              "Uszkoreit, Jakob",
+              "Jones, Llion",
+              "Gomez, Aidan N.",
+              "Kaiser, Lukasz",
+              "Polosukhin, Illia"
+            ],
+            "citation_date": [
+              "2017/06/12"
+            ],
+            "citation_online_date": [
+              "2023/08/02"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/1706.03762"
+            ],
+            "citation_arxiv_id": [
+              "1706.03762"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true
+    },
+    {
+      "key": "groupnorm",
+      "title": "{Group Normalization}",
+      "doi": null,
+      "year": "2018",
+      "sources": [
+        {
+          "url": "https://openaccess.thecvf.com/content_ECCV_2018/html/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.html",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/1803.08494",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://openaccess.thecvf.com/content_ECCV_2018/html/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.html",
+          "metadata": {
+            "citation_title": [
+              "Group Normalization"
+            ],
+            "citation_author": [
+              "Wu, Yuxin",
+              "He, Kaiming"
+            ],
+            "citation_publication_date": [
+              "2018"
+            ],
+            "citation_conference_title": [
+              "Proceedings of the European Conference on Computer Vision (ECCV)"
+            ],
+            "citation_firstpage": [
+              "3"
+            ],
+            "citation_lastpage": [
+              "19"
+            ],
+            "citation_pdf_url": [
+              "http://openaccess.thecvf.com/content_ECCV_2018/papers/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.pdf"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/1803.08494",
+          "metadata": {
+            "og:title": [
+              "Group Normalization"
+            ],
+            "citation_title": [
+              "Group Normalization"
+            ],
+            "citation_author": [
+              "Wu, Yuxin",
+              "He, Kaiming"
+            ],
+            "citation_date": [
+              "2018/03/22"
+            ],
+            "citation_online_date": [
+              "2018/06/11"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/1803.08494"
+            ],
+            "citation_arxiv_id": [
+              "1803.08494"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true
+    },
+    {
+      "key": "dilatedconv",
+      "title": "{Multi-Scale Context Aggregation by Dilated Convolutions}",
+      "doi": null,
+      "year": "2016",
+      "sources": [
+        {
+          "url": "https://www.iclr.cc/archive/www/2016.html",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/1511.07122",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://www.iclr.cc/archive/www/2016.html",
+          "metadata": {},
+          "title_similarity": 0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/1511.07122",
+          "metadata": {
+            "og:title": [
+              "Multi-Scale Context Aggregation by Dilated Convolutions"
+            ],
+            "citation_title": [
+              "Multi-Scale Context Aggregation by Dilated Convolutions"
+            ],
+            "citation_author": [
+              "Yu, Fisher",
+              "Koltun, Vladlen"
+            ],
+            "citation_date": [
+              "2015/11/23"
+            ],
+            "citation_online_date": [
+              "2016/04/30"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/1511.07122"
+            ],
+            "citation_arxiv_id": [
+              "1511.07122"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true,
+      "url_correction": "https://arxiv.org/abs/1511.07122",
+      "url_note": "Specific work landing page replaces general index/PDF link. OpenReview browser checks are recorded; work identity is independently verified on official arXiv."
+    },
+    {
+      "key": "primercast",
+      "title": "{PrimerCast: ML-guided qPCR primer design with off-target minimization}",
+      "doi": null,
+      "year": "2026",
+      "sources": [
+        {
+          "url": "https://github.com/broadinstitute/PrimerCast",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://github.com/broadinstitute/PrimerCast",
+          "metadata": {
+            "og:title": [
+              "GitHub - broadinstitute/PrimerCast: Design tool for highly performant qPCR diagnostics."
+            ]
+          },
+          "title_similarity": 0.3157894736842105,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true,
+      "status": "software repository, not a verified journal article"
+    },
+    {
+      "key": "sohldiff",
+      "title": "{Deep Unsupervised Learning using Nonequilibrium Thermodynamics}",
+      "doi": null,
+      "year": "2015",
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v37/sohl-dickstein15.html",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/1503.03585",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://proceedings.mlr.press/v37/sohl-dickstein15.html",
+          "metadata": {
+            "citation_publisher": [
+              "PMLR"
+            ],
+            "citation_title": [
+              "Deep Unsupervised Learning using Nonequilibrium Thermodynamics"
+            ],
+            "citation_language": [
+              "en"
+            ],
+            "citation_abstract_html_url": [
+              "https://proceedings.mlr.press/v37/sohl-dickstein15.html"
+            ],
+            "citation_pdf_url": [
+              "http://proceedings.mlr.press/v37/sohl-dickstein15.pdf"
+            ],
+            "citation_firstpage": [
+              "2256"
+            ],
+            "citation_lastpage": [
+              "2265"
+            ],
+            "citation_author": [
+              "Jascha Sohl-Dickstein",
+              "Eric Weiss",
+              "Niru Maheswaranathan",
+              "Surya Ganguli"
+            ],
+            "citation_publication_date": [
+              "2015/06/01"
+            ],
+            "citation_inbook_title": [
+              "International Conference on Machine Learning"
+            ],
+            "citation_conference_title": [
+              "International Conference on Machine Learning"
+            ],
+            "citation_conference_sequence_num": [
+              "32"
+            ],
+            "citation_issn": [
+              "1938-7228"
+            ],
+            "og:title": [
+              "Deep Unsupervised Learning using Nonequilibrium Thermodynamics"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/1503.03585",
+          "metadata": {
+            "og:title": [
+              "Deep Unsupervised Learning using Nonequilibrium Thermodynamics"
+            ],
+            "citation_title": [
+              "Deep Unsupervised Learning using Nonequilibrium Thermodynamics"
+            ],
+            "citation_author": [
+              "Sohl-Dickstein, Jascha",
+              "Weiss, Eric A.",
+              "Maheswaranathan, Niru",
+              "Ganguli, Surya"
+            ],
+            "citation_date": [
+              "2015/03/12"
+            ],
+            "citation_online_date": [
+              "2015/11/18"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/1503.03585"
+            ],
+            "citation_arxiv_id": [
+              "1503.03585"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true
+    },
+    {
+      "key": "classifierguidance",
+      "title": "{Diffusion Models Beat GANs on Image Synthesis}",
+      "doi": null,
+      "year": "2021",
+      "sources": [
+        {
+          "url": "https://papers.nips.cc/paper/2021/hash/49ad23d1ec9fa4bd8d77d02681df5cfa-Abstract.html",
+          "http_status": 200
+        },
+        {
+          "url": "https://arxiv.org/abs/2105.05233",
+          "http_status": 200
+        }
+      ],
+      "primary_checks": [
+        {
+          "url": "https://papers.nips.cc/paper/2021/hash/49ad23d1ec9fa4bd8d77d02681df5cfa-Abstract.html",
+          "metadata": {
+            "citation_title": [
+              "Diffusion Models Beat GANs on Image Synthesis"
+            ],
+            "citation_author": [
+              "Dhariwal, Prafulla",
+              "Nichol, Alexander"
+            ],
+            "citation_journal_title": [
+              "Advances in Neural Information Processing Systems"
+            ],
+            "citation_volume": [
+              "34"
+            ],
+            "citation_firstpage": [
+              "8780"
+            ],
+            "citation_lastpage": [
+              "8794"
+            ],
+            "citation_pdf_url": [
+              "https://proceedings.neurips.cc/paper_files/paper/2021/file/49ad23d1ec9fa4bd8d77d02681df5cfa-Paper.pdf"
+            ],
+            "citation_publication_date": [
+              "2021-12-06"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        },
+        {
+          "url": "https://arxiv.org/abs/2105.05233",
+          "metadata": {
+            "og:title": [
+              "Diffusion Models Beat GANs on Image Synthesis"
+            ],
+            "citation_title": [
+              "Diffusion Models Beat GANs on Image Synthesis"
+            ],
+            "citation_author": [
+              "Dhariwal, Prafulla",
+              "Nichol, Alex"
+            ],
+            "citation_date": [
+              "2021/05/11"
+            ],
+            "citation_online_date": [
+              "2021/06/01"
+            ],
+            "citation_pdf_url": [
+              "https://arxiv.org/pdf/2105.05233"
+            ],
+            "citation_arxiv_id": [
+              "2105.05233"
+            ]
+          },
+          "title_similarity": 1.0,
+          "title_in_primary_page": true
+        }
+      ],
+      "identity_verified": true
+    },
+    {
+      "key": "diffuprimer_code",
+      "title": "{DiffuPrimer: conditional discrete diffusion for primer-pair design}",
+      "doi": null,
+      "year": "2026",
+      "sources": [
+        {
+          "url": "https://archive.softwareheritage.org/api/1/revision/275d1c0acf64edba234d17c1a83094af597f6202/",
+          "http_status": 200
+        },
+        {
+          "url": "https://github.com/jingyue0513/DiffuPrimer/blob/v0.1.0/CITATION.cff",
+          "evidence": "Freshly read via authenticated read-only GitHub connector; title, both authors and version match. Same-day verified Software Heritage revision record is retained; new SWH request returned an HTML verification page."
+        }
+      ],
+      "identity_verified": true,
+      "status": "archived software, not a journal article",
+      "year_matches": true,
+      "archive_revision": "275d1c0acf64edba234d17c1a83094af597f6202"
+    }
+  ],
+  "verified": 52,
+  "all_cited_references_exist": true,
+  "scope": "Bibliographic identity/status and DOI/primary-source existence, plus author order for publisher metadata; not a claim that every full paper was reread or that every claim was independently replicated.",
+  "software_sources": 2,
+  "main_bibliography_sha256": "9e1cebbbfa7420e81fda1bd3d1fc926f9332ce0b5aa5e3a10a9c0c0eaf75ba83"
+}
