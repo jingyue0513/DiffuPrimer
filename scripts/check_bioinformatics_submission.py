@@ -48,7 +48,7 @@ def main():
     assert 'no specific grant' in text and 'manuscript drafting and revision' in text
     citations={k for b in re.findall(r'\\cite\w*\{([^}]+)\}',text) for k in b.split(',')}
     compiled=set(re.findall(r'\\bibitem\[.*?\]\{([^}]+)\}',(OUT/'manuscript.bbl').read_text(),re.S))
-    assert citations==compiled and len(citations)==51,(len(citations),len(compiled))
+    assert citations==compiled and len(citations)==52,(len(citations),len(compiled))
     abstract=text.split('\\abstract{',1)[1].split('\\keywords',1)[0]
     abstract=re.sub(r'\\href\{[^}]+\}\{([^}]+)\}',r'\1',abstract)
     abstract=re.sub(r'\\url\{[^}]+\}','URL',abstract)

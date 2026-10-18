@@ -52,6 +52,18 @@ def main():
 \ps@headings
 \makeatother
 ''')
+    entry = r'''
+@misc{diffuprimer_code,
+  author = {Li, Jingyue and Mei, Shiyue},
+  title = {{DiffuPrimer: conditional discrete diffusion for primer-pair design}},
+  year = {2026},
+  howpublished = {Software, version 0.1.0},
+  url = {https://github.com/jingyue0513/DiffuPrimer},
+  note = {Source code, checkpoints, test data and benchmark evidence}
+}
+'''
+    for name in ['references.bib','submission_references.bib']:
+        with (OUT/name).open('a') as handle:handle.write(entry)
     shutil.copytree(DRAFT / 'figures', OUT / 'figures', dirs_exist_ok=True)
     shutil.copy2(MECHANISM.parent / 'results.pdf', OUT / 'figures/mechanism_controls.pdf')
     s = json.loads(MECHANISM.read_text())
@@ -134,7 +146,7 @@ The benchmark evaluates reference discrimination under specified alignment rules
 ''' +text[end:]
     start=text.index(r'\section*{Data and code availability}')
     text=text[:start]+r'''\section*{Data and code availability}
-Reference sequences and annotations are from NCBI RefSeq assembly GCF\_000001635.27, annotation RS\_2024\_02. Source code, checkpoints, test data, processed benchmark records and reproduction instructions are prepared at \url{https://github.com/jingyue0513/DiffuPrimer}. The release bundles test sequences, model weights and machine-readable evaluation records.
+Reference sequences and annotations are from NCBI RefSeq assembly GCF\_000001635.27, annotation RS\_2024\_02. Source code, checkpoints, test data, processed benchmark records and reproduction instructions are available at \url{https://github.com/jingyue0513/DiffuPrimer} \citep{diffuprimer_code}. The release bundles test sequences, model weights and machine-readable evaluation records.
 
 \section*{Acknowledgements}
 \subsection*{Funding}
