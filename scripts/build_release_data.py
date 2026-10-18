@@ -30,6 +30,7 @@ def main():
            'reference_manifest.json','acquisition_ledger.jsonl','primerbank_pilot.jsonl','pilot_all_isoforms.fasta',
            'computational_candidates.manifest.json','computational_candidates_ledger.jsonl']
     data=[ROOT/'data/processed'/n for n in names]
+    data.append(ROOT/'data/raw/primerbank/6671509a1_detail.html')
     data+=list((ROOT/'data/splits').glob('*'))
     data+=[ROOT/f'results/checkpoints/{m}_weak_partial_pilot_seed20261013.pt' for m in ['direct','diffusion']]
     records.append(archive('benchmark_data.zip',data))

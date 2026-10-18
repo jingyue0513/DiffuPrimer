@@ -3,8 +3,8 @@
   "archives": [
     {
       "archive": "benchmark_data.zip",
-      "bytes": 5136121,
-      "sha256": "0aa32d8c2c0c9bdc070648519e52518bb53af9c98ba70b283ab18fb87e1fedf7",
+      "bytes": 5138511,
+      "sha256": "42f0a74ead6c175a6963474e3bf01a289877dcc3252b5c317c5767f0914e2e88",
       "members": [
         {
           "path": "data/processed/acquisition_ledger.jsonl",
@@ -65,6 +65,11 @@
           "path": "data/processed/targets_pilot.jsonl",
           "bytes": 1656706,
           "sha256": "feba10ee675e2f4cc1300862bb845a02d17f0d604eb9b8a0c13154f2343e6dda"
+        },
+        {
+          "path": "data/raw/primerbank/6671509a1_detail.html",
+          "bytes": 6718,
+          "sha256": "7cf4883108a860691e4878d1c91c8c31b9a38c0d0c4663172c8c727b39cc76b3"
         },
         {
           "path": "data/splits/pilot.jsonl",
